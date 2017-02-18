@@ -11,7 +11,7 @@ script:
 deploy:
   provider: script
   script:
-    - s3cmd sync ./build/ s3://static.togglz.org
+    - s3cmd sync -c ./.travis.s3cfg --delete-removed -P -M -r ./build/ s3://www.mvc-spec.org
   on:
     repo: mvc-spec/www.mvc-spec.org
     branch: master

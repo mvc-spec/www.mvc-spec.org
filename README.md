@@ -1,4 +1,4 @@
-# mvc-spec.org
+# mvc-spec.org [![Build Status](https://travis-ci.org/mvc-spec/www.mvc-spec.org.svg?branch=master)](https://travis-ci.org/mvc-spec/www.mvc-spec.org)
 
 The source of https://www.mvc-spec.org
 

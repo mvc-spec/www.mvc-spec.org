@@ -17,17 +17,14 @@ The site will be built to the `./build/` directory.
 
 ## Development mode
 
-If you are actively working on the site, you should follow this workflow.
+If you are actively working on the site, you should use the development mode.
 
-First start the development server which serves the site:
+To start in development mode, start the script like this:
 
-    $ npm run serve
+    $ npm run dev
 
-You can now point your browser to: [http://localhost:8080/](http://localhost:8080/)
+You can now point your browser to: [http://localhost:4444/](http://localhost:4444/)
 
-Then open a new console add start watching the files for automatic rebuilding
-on file modification:
-
-    $ npm run watch
+If you change any files, the development mode will automatically rebuild the site.
 
 That's it! :)

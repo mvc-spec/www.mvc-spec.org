@@ -10,6 +10,7 @@ script:
   - npm run build
 deploy:
   provider: script
+  skip_cleanup: true
   script:
     - s3cmd sync -c ./.travis.s3cfg --delete-removed -P -M -r ./build/ s3://www.mvc-spec.org
   on:
@@ -17,4 +18,4 @@ deploy:
     branch: master
 env:
   global:
-    secure: BxisgcnQJtahq6L8pvD0iXxdqnIiNbxWf+uzRn+f2mp9/DxsJNv/ykwJHAZrBmf2UMvEpbYjA9ha8IqUV+ejGMbD3YMtSKtyMiDAkWCwVkguVaZ0zyf32Z0LK+YIM1r4+pmN8+yUV2YXkvkU8Wh5NlxPIL/fDni06zuz6YUQ3LFR86jEP3kdSNhW6iiuTnI6ZGD/UB4rlJvsmj1ox0gxdxCpaYCItFZeMjjllO1IVlHua9c8pf6t+YHCXa6s7UTDE4RJ2SoxeelC6vHIsXEI9nH67Cg5AMdbd7Fz5lm19zDHFHTiyGC28gG7rLJpGaT7lAeztntZ5AQoipPqDaCvst70Di+pIukq7HMY4dmwvNCrSLBw5a+zCfsyFsIwhzQJIAVSkrBl58PVBn09d/se+VEN6ELy3tP+vtupJUSatyLxm7Sew0Dwy3cpphew0i/sSUSIIvuNcXY1ny3d126ooVaFnX4SUyNuLvOz68m9TrJJPyXwPJwmu99BRqSzd35pNUm64MVtNpGby2t1r3TTBpb8LpBqxATWAgrYkD8F0OhXrJYaqUITvzQrScBZK9WsL3RuHjDwYMicqVCVLjsyDHOaJz7vJqHZJczRL8pX+cDfC74lZGOdGDdU0HPUkmumckqJLu6RJ8Bhk+rzKuGZWIB+rXm8+PDXpcTrVZ4FLW0=
+    secure: rIMV8NE29jrJecxjtcMM45O+2SCq7YLIR382IPcDfbYW4cup+zk+/EKOq7ELysM8lE5FkWTU1ge9AxvghVECrreUNVT6eglwXJzjXXNUYx0Fv7TUPMzSafTLi7VWuFQH8AwaPFN83Jd8NzM11QkwZe3WLsFzlhZpmJa0iaug9blpGEy8cepnYbZfFSHQabkodGmEJwZMjZL3WRpBqswxNAd2dzM15XdoDOuebEC9yN/eIu6Bt6c0k++Y781d3K/+dEcZf7sWy12mAoAKjizalezXxIrEtgAzfPwDhPGRM/clEGH7w1dltKE7fn9ri5Z8SFnUaQvin+f9Hx3cD7EftZHUDZP5rHYPRS2ZDYrWEN4vx+rc3CASvKCSbGm9bxciNjC3/N65eER1cNZb4SiANh9Mr8JijgDCqiy6MS+TFDTyhtWF2R4mgwI3Zz1TBl6ijZj6n/qk2G8Lyp9gnk/Gu1qcpBOKzh0/5F5HUAAah/99+3x2coVlsWAr8NLrtuuNVFlhCe3fFKXF17T4IRUvLyFm1cDtpK9rNoML0vCqraxGGw0xkN9W2qgt689CGTI7X2W9kkn66DQq78ILsESa7JAa0uffWsfZzZ9MRSfk/vBRIl/W8K1gsCDwwbFd/wy9SqazOwNFcFoeBQuHkRT4dyow50kzeH6x+981u5xAZLI=

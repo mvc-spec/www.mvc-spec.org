@@ -1,3 +1,20 @@
 language: node_js
-node_js: stable
-script: npm run build
+node_js: 6
+addons:
+  apt:
+    packages:
+      - s3cmd
+install:
+  - npm install
+script:
+  - npm run build
+deploy:
+  provider: script
+  script:
+    - s3cmd sync ./build/ s3://static.togglz.org
+  on:
+    repo: mvc-spec/www.mvc-spec.org
+    branch: master
+env:
+  global:
+    secure: BxisgcnQJtahq6L8pvD0iXxdqnIiNbxWf+uzRn+f2mp9/DxsJNv/ykwJHAZrBmf2UMvEpbYjA9ha8IqUV+ejGMbD3YMtSKtyMiDAkWCwVkguVaZ0zyf32Z0LK+YIM1r4+pmN8+yUV2YXkvkU8Wh5NlxPIL/fDni06zuz6YUQ3LFR86jEP3kdSNhW6iiuTnI6ZGD/UB4rlJvsmj1ox0gxdxCpaYCItFZeMjjllO1IVlHua9c8pf6t+YHCXa6s7UTDE4RJ2SoxeelC6vHIsXEI9nH67Cg5AMdbd7Fz5lm19zDHFHTiyGC28gG7rLJpGaT7lAeztntZ5AQoipPqDaCvst70Di+pIukq7HMY4dmwvNCrSLBw5a+zCfsyFsIwhzQJIAVSkrBl58PVBn09d/se+VEN6ELy3tP+vtupJUSatyLxm7Sew0Dwy3cpphew0i/sSUSIIvuNcXY1ny3d126ooVaFnX4SUyNuLvOz68m9TrJJPyXwPJwmu99BRqSzd35pNUm64MVtNpGby2t1r3TTBpb8LpBqxATWAgrYkD8F0OhXrJYaqUITvzQrScBZK9WsL3RuHjDwYMicqVCVLjsyDHOaJz7vJqHZJczRL8pX+cDfC74lZGOdGDdU0HPUkmumckqJLu6RJ8Bhk+rzKuGZWIB+rXm8+PDXpcTrVZ4FLW0=

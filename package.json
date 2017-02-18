@@ -1,0 +1,24 @@
+{
+  "name": "www.mvc-spec.org",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node build.js && onchange 'src/**' 'layouts/**' -- node build.js --watch",
+    "serve": "http-server build"
+  },
+  "devDependencies": {
+    "metalsmith": "~1.7.0",
+    "metalsmith-layouts": "~1.4.2",
+    "metalsmith-markdown": "~0.2.1",
+    "metalsmith-static": "0.0.5",
+    "metalsmith-less": "~2.0.0",
+    "metalsmith-ignore": "~0.1.2",
+    "handlebars": "^4.0.5",
+    "bootstrap": "~3.3.6",
+    "jquery": "~2.1.4",
+    "http-server": "~0.8.5",
+    "onchange": "~2.0.0",
+    "yargs": "~3.31.0"
+  }
+}

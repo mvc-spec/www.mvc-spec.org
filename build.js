@@ -1,0 +1,63 @@
+var Metalsmith = require("metalsmith");
+var markdown = require("metalsmith-markdown");
+var layouts = require("metalsmith-layouts");
+var less = require("metalsmith-less");
+var ignore = require("metalsmith-ignore");
+var assets = require("metalsmith-static");
+var argv = require("yargs").argv;
+
+// basic Metalsmith setup
+var metalsmith = Metalsmith(__dirname)
+    .metadata({
+      // global template variables
+    })
+    .source('./src')
+    .destination('./build')
+    .clean(true);
+
+// render markdown to HTML
+metalsmith.use(markdown({
+  // optional marked options
+}));
+
+// apply template to get a full HTML page
+metalsmith.use(layouts({
+  "engine": "handlebars",
+  "pattern": "*.html",
+  "default": "layout.html",
+  "directory": "layouts",
+  "partials": "layouts"
+}));
+
+// compile LESS files
+metalsmith.use(less({
+  "pattern": "css/style.less"
+}));
+
+// ignore some files, like the original LESS files
+metalsmith.use(ignore([
+  "**/*.less"
+]));
+
+// copy assets which shouldn't be processed by the pipeline
+metalsmith.use(assets([
+  {
+    "src": "assets",
+    "dest": "."
+  },
+  {
+    "src": "node_modules/bootstrap/dist",
+    "dest": "vendor/bootstrap"
+  },
+  {
+    "src": "node_modules/jquery/dist",
+    "dest": "vendor/jquery"
+  }
+]));
+
+// run the build
+metalsmith.build(function (err) {
+  if (err) {
+    throw err;
+  }
+});

@@ -26,27 +26,31 @@ with existing EE technologies like [CDI](https://www.jcp.org/en/jsr/detail?id=36
 
 # HelloWorld Example
 
-    @Path("hello")
-    public class HelloController {
-    
-        @Inject
-        private User user;
-    
-        @GET
-        @Controller
-        public String hello(@QueryParam("name") String name) {
-            user.setName(name);
-            return "hello.jsp";
-        }
+```java
+@Path("hello")
+public class HelloController {
+
+    @Inject
+    private User user;
+
+    @GET
+    @Controller
+    public String hello(@QueryParam("name") String name) {
+        user.setName(name);
+        return "hello.jsp";
     }
+}
+```
 
 # Releases
 
 Early Draft Release 2. Available via Maven:
 
-    <dependency>
-        <groupId>javax.mvc</groupId>
-        <artifactId>javax.mvc-api</artifactId>
-        <version>1.0-edr2</version>
-    </dependency>
+```xml
+<dependency>
+    <groupId>javax.mvc</groupId>
+    <artifactId>javax.mvc-api</artifactId>
+    <version>1.0-edr2</version>
+</dependency>
+```
 

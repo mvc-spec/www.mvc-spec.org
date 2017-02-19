@@ -50,10 +50,6 @@ metalsmith.use(assets([
   {
     "src": "node_modules/bootstrap/dist",
     "dest": "vendor/bootstrap"
-  },
-  {
-    "src": "node_modules/jquery/dist",
-    "dest": "vendor/jquery"
   }
 ]));
 

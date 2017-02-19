@@ -10,7 +10,6 @@
     "bootstrap": "~3.3.6",
     "handlebars": "^4.0.5",
     "http-server": "~0.8.5",
-    "jquery": "~2.1.4",
     "metalsmith": "~1.7.0",
     "metalsmith-ignore": "~0.1.2",
     "metalsmith-layouts": "~1.4.2",

@@ -7,17 +7,17 @@
     "dev": "node build.js --dev"
   },
   "devDependencies": {
-    "bootstrap": "~3.3.6",
-    "handlebars": "^4.0.5",
-    "http-server": "~0.8.5",
-    "metalsmith": "~1.7.0",
-    "metalsmith-ignore": "~0.1.2",
-    "metalsmith-layouts": "~1.4.2",
-    "metalsmith-less": "~2.0.0",
-    "metalsmith-markdown": "~0.2.1",
+    "bootstrap": "3.3.7",
+    "handlebars": "4.0.5",
+    "http-server": "0.8.5",
+    "metalsmith": "1.7.0",
+    "metalsmith-ignore": "0.1.2",
+    "metalsmith-layouts": "1.4.2",
+    "metalsmith-less": "2.0.0",
+    "metalsmith-markdown": "0.2.1",
     "metalsmith-serve": "0.0.7",
     "metalsmith-static": "0.0.5",
-    "metalsmith-watch": "^1.0.3",
-    "yargs": "~3.31.0"
+    "metalsmith-watch": "1.0.3",
+    "yargs": "3.31.0"
   }
 }

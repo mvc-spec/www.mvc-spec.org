@@ -46,10 +46,6 @@ metalsmith.use(assets([
   {
     "src": "assets",
     "dest": "."
-  },
-  {
-    "src": "node_modules/bootstrap/dist",
-    "dest": "vendor/bootstrap"
   }
 ]));
 

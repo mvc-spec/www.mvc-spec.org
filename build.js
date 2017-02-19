@@ -63,7 +63,7 @@ if (argv.dev) {
     paths: {
       "src/**/*": true,
       "assets/**/*": true,
-      "layouts/**/*": true
+      "layouts/**/*": "**/*"
     },
     livereload: true
   }));

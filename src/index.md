@@ -42,11 +42,11 @@ with existing EE technologies like [CDI](https://www.jcp.org/en/jsr/detail?id=36
 
 # Releases
 
-Early Draft Release 1. Available via Maven:
+Early Draft Release 2. Available via Maven:
 
     <dependency>
         <groupId>javax.mvc</groupId>
         <artifactId>javax.mvc-api</artifactId>
-        <version>1.0-edr1</version>
+        <version>1.0-edr2</version>
     </dependency>
 

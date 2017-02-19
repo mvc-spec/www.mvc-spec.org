@@ -11,7 +11,9 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-    - aws s3 sync ./build s3://www.mvc-spec.org --region=eu-west-1 --delete
+    - aws --version
+    - aws s3 sync ./build s3://www.mvc-spec.org --delete
+    - aws s3 website s3://www.mvc-spec.org --index-document index.html
   on:
     repo: mvc-spec/www.mvc-spec.org
     branch: master

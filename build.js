@@ -25,7 +25,7 @@ metalsmith.use(markdown({
 // apply template to get a full HTML page
 metalsmith.use(layouts({
   "engine": "handlebars",
-  "pattern": "*.html",
+  "pattern": "**/*.html",
   "default": "layout.html",
   "directory": "layouts",
   "partials": "layouts"

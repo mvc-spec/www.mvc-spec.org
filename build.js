@@ -12,17 +12,7 @@ var argv = require("yargs").argv;
 // basic Metalsmith setup
 var metalsmith = Metalsmith(__dirname)
     .metadata({
-      versions: {
-        spec: {
-          latest: "1.0-edr2",
-          develop: "1.0-SNAPSHOT"
-        },
-        ozark: {
-          latest: "1.0.0-m02",
-          develop: "1.0.0-m03-SNAPSHOT"
-        }
-      }
-      // global template variables
+      versions: require("./metadata/versions.json")
     })
     .source('./src')
     .destination('./build')

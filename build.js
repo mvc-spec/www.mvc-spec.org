@@ -6,11 +6,22 @@ var ignore = require("metalsmith-ignore");
 var assets = require("metalsmith-static");
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
+var inplace = require('metalsmith-in-place');
 var argv = require("yargs").argv;
 
 // basic Metalsmith setup
 var metalsmith = Metalsmith(__dirname)
     .metadata({
+      versions: {
+        spec: {
+          latest: "1.0-edr2",
+          develop: "1.0-SNAPSHOT"
+        },
+        ozark: {
+          latest: "1.0.0-m02",
+          develop: "1.0.0-m03-SNAPSHOT"
+        }
+      }
       // global template variables
     })
     .source('./src')
@@ -20,6 +31,12 @@ var metalsmith = Metalsmith(__dirname)
 // render markdown to HTML
 metalsmith.use(markdown({
   // optional marked options
+}));
+
+// evaluate template expressions in content files
+metalsmith.use(inplace({
+  "pattern": "**/*.html",
+  "engine": "handlebars"
 }));
 
 // apply template to get a full HTML page

@@ -50,7 +50,7 @@ Early Draft Release 2. Available via Maven:
 <dependency>
     <groupId>javax.mvc</groupId>
     <artifactId>javax.mvc-api</artifactId>
-    <version>1.0-edr2</version>
+    <version>{{versions.spec.latest}}</version>
 </dependency>
 ```
 

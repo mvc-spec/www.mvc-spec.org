@@ -4,17 +4,13 @@ install:
   - npm install
 script:
   - npm run build
-before_deploy:
-  - pip install --user awscli
-  - export PATH=$PATH:$HOME/.local/bin
 deploy:
   provider: script
+  script: ./deploy.sh
   skip_cleanup: true
-  script:
-    - aws s3 sync ./build s3://www.mvc-spec.org --delete
   on:
     repo: mvc-spec/www.mvc-spec.org
     branch: master
 env:
   global:
-    secure: rIMV8NE29jrJecxjtcMM45O+2SCq7YLIR382IPcDfbYW4cup+zk+/EKOq7ELysM8lE5FkWTU1ge9AxvghVECrreUNVT6eglwXJzjXXNUYx0Fv7TUPMzSafTLi7VWuFQH8AwaPFN83Jd8NzM11QkwZe3WLsFzlhZpmJa0iaug9blpGEy8cepnYbZfFSHQabkodGmEJwZMjZL3WRpBqswxNAd2dzM15XdoDOuebEC9yN/eIu6Bt6c0k++Y781d3K/+dEcZf7sWy12mAoAKjizalezXxIrEtgAzfPwDhPGRM/clEGH7w1dltKE7fn9ri5Z8SFnUaQvin+f9Hx3cD7EftZHUDZP5rHYPRS2ZDYrWEN4vx+rc3CASvKCSbGm9bxciNjC3/N65eER1cNZb4SiANh9Mr8JijgDCqiy6MS+TFDTyhtWF2R4mgwI3Zz1TBl6ijZj6n/qk2G8Lyp9gnk/Gu1qcpBOKzh0/5F5HUAAah/99+3x2coVlsWAr8NLrtuuNVFlhCe3fFKXF17T4IRUvLyFm1cDtpK9rNoML0vCqraxGGw0xkN9W2qgt689CGTI7X2W9kkn66DQq78ILsESa7JAa0uffWsfZzZ9MRSfk/vBRIl/W8K1gsCDwwbFd/wy9SqazOwNFcFoeBQuHkRT4dyow50kzeH6x+981u5xAZLI=
+    secure: ig67usznFCh3xFyvPyr3pjKjzQZxoTjIrdKd0OazcvLJk8eydPliUhgchH9yIcZJ+l6CP//1xqCBVbgeFe8Y23bpaIj+c257D24V8eAn6VXlX6GIphOZ7cMaimCMcFGi4S0LJj2GOjPKGkrPAWaq3ve4NsigSIuXfTnkKBV0GYzEZS+kmTbaworkOW0qQPSw+LvxnJcRli9tZXMwC2tIE3YvBXAu7edLuNr77vzvfxnsLBABZuy2qGP4/ZC/+QiwXHiZ3Be8VEBIlAo/5/As/Da463EAOetYK1yvvhrSzb5BD4Csx6g2xmjMTHqhmB+fs/9vaU3tb/72Yll4y+o3p8gDD4ehKG4NyDExEtBM2xZONBprSb+S7tXSZ+5BPLpDTjqNKYUCorLeCd+vcAluf/w529A9TnX44l2+y0ddrzNZDqsKVBH5FPWMGhrQIGTL3bOLTRKtJNrPzygpstSTyrZyo+SwP2AYIzCG0PN+Dp3DQZLGEbgj5jF/pF2q6b1OQm9IDqAJgrILZKRsqg9wX8FNUYpOkUHIux2cZycAxXjZXwuxaWBHt35jUePEq/eQHKUuJ37SIJllcWHKCVdlzUlX24tj5adUUkeb9st9lqmCtLNSCaKie9DA3NOWLhltJ0VVPGKOPqoO5A+pcDwh14clFq8jaums+85IfykcYoA=

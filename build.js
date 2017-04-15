@@ -20,7 +20,9 @@ var metalsmith = Metalsmith(__dirname)
     .destination('./build')
     .clean(true);
 
-// render markdown to HTML
+/*
+ * Transform Markdown files to HTML
+ */
 metalsmith.use(markdown({
   // optional marked options
 }));
@@ -45,13 +47,20 @@ metalsmith.use(news({
   latestCount: 3
 }));
 
-// evaluate template expressions in content files
+/*
+ * Evaluate template expressions in content files. This is useful
+ * for variables like "versions.spec.latest" which are defined
+ * in "/metadata/*.json".
+ */
 metalsmith.use(inplace({
   "pattern": "**/*.html",
   "engine": "handlebars"
 }));
 
-// apply template to get a full HTML page
+/*
+ * Apply template to get a full HTML page. You can choose which 
+ * template to use using the "template" header property.
+ */
 metalsmith.use(layouts({
   "engine": "handlebars",
   "pattern": "**/*.html",
@@ -60,17 +69,25 @@ metalsmith.use(layouts({
   "partials": "layouts"
 }));
 
-// compile LESS files
+/*
+ * Transform *.less files to *.css
+ */
 metalsmith.use(less({
   "pattern": "css/style.less"
 }));
 
-// ignore some files, like the original LESS files
+/*
+ * There are some files in the "src" folder which we don't need in
+ * the file site.
+ */
 metalsmith.use(ignore([
   "**/*.less"
 ]));
 
-// copy assets which shouldn't be processed by the pipeline
+/*
+ * Copy assets which shouldn't be processed by the pipeline. This
+ * is useful for including stuff from "node_modules" in the site.
+ */
 metalsmith.use(assets([
   {
     "src": "assets",

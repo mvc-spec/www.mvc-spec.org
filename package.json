@@ -12,8 +12,6 @@
     "metalsmith": "1.7.0",
     "metalsmith-better-excerpts": "^0.1.7",
     "metalsmith-ignore": "0.1.2",
-    "metalsmith-in-place": "1.4.4",
-    "metalsmith-layouts": "1.4.2",
     "metalsmith-less": "2.0.0",
     "metalsmith-markdown": "0.2.1",
     "metalsmith-serve": "0.0.7",

@@ -1,14 +1,13 @@
 var Metalsmith = require("metalsmith");
 var markdown = require("metalsmith-markdown");
-var layouts = require("metalsmith-layouts");
 var less = require("metalsmith-less");
 var ignore = require("metalsmith-ignore");
 var assets = require("metalsmith-static");
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
-var inplace = require('metalsmith-in-place');
 var excerpts = require('metalsmith-better-excerpts');
 var news = require('./plugins/news');
+var handlebars = require('./plugins/handlebars');
 var argv = require("yargs").argv;
 
 // basic Metalsmith setup
@@ -48,25 +47,12 @@ metalsmith.use(news({
 }));
 
 /*
- * Evaluate template expressions in content files. This is useful
- * for variables like "versions.spec.latest" which are defined
- * in "/metadata/*.json".
- */
-metalsmith.use(inplace({
-  "pattern": "**/*.html",
-  "engine": "handlebars"
-}));
-
-/*
  * Apply template to get a full HTML page. You can choose which 
  * template to use using the "template" header property.
  */
-metalsmith.use(layouts({
-  "engine": "handlebars",
+metalsmith.use(handlebars({
   "pattern": "**/*.html",
-  "default": "layout.html",
-  "directory": "layouts",
-  "partials": "layouts"
+  "directory": "_templates"
 }));
 
 /*
@@ -108,8 +94,7 @@ if (argv.dev) {
   metalsmith.use(watch({
     paths: {
       "src/**/*": true,
-      "assets/**/*": true,
-      "layouts/**/*": "**/*"
+      "assets/**/*": true
     },
     livereload: true
   }));

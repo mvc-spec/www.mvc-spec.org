@@ -7,6 +7,8 @@ var assets = require("metalsmith-static");
 var serve = require('metalsmith-serve');
 var watch = require('metalsmith-watch');
 var inplace = require('metalsmith-in-place');
+var excerpts = require('metalsmith-better-excerpts');
+var news = require('./plugins/news');
 var argv = require("yargs").argv;
 
 // basic Metalsmith setup
@@ -21,6 +23,26 @@ var metalsmith = Metalsmith(__dirname)
 // render markdown to HTML
 metalsmith.use(markdown({
   // optional marked options
+}));
+
+/*
+ * Adds a 'excerpt' property to all pages. This will be used
+ * to display excerpts for the news entries.
+ */
+metalsmith.use(excerpts({
+  pruneLength: 100
+}));
+
+/*
+ * This will process all the news entries in the 'news' directory,
+ * extract the date from the file name, create a pretty URL for them 
+ * and create two collections 'news.all' and 'news.latest' ordered 
+ * by the entry date 
+ */
+metalsmith.use(news({
+  pattern: "news/20*.html",
+  collection: "news",
+  latestCount: 3
 }));
 
 // evaluate template expressions in content files

@@ -10,6 +10,7 @@
     "bootstrap": "3.3.7",
     "handlebars": "4.0.5",
     "metalsmith": "1.7.0",
+    "metalsmith-better-excerpts": "^0.1.7",
     "metalsmith-ignore": "0.1.2",
     "metalsmith-in-place": "1.4.4",
     "metalsmith-layouts": "1.4.2",
@@ -18,6 +19,7 @@
     "metalsmith-serve": "0.0.7",
     "metalsmith-static": "0.0.5",
     "metalsmith-watch": "1.0.3",
+    "minimatch": "^3.0.3",
     "yargs": "3.31.0"
   }
 }

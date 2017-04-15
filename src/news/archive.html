@@ -1,0 +1,12 @@
+---
+title: News archive
+---
+
+<h2>News archive</h2>
+
+{{#each news.all}}
+<h3>{{date}}: {{title}}</h3>
+<p>
+  {{excerpt}} <a href="/{{path}}">(read more)</a>
+</p>
+{{/each}}

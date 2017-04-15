@@ -1,8 +1,8 @@
 ---
 title: New website for JSR 371
+author: chkal
+template: news.html
 ---
-
-## New website for JSR 371
 
 We are very proud to announce that the first version of the new official website 
 for JSR 371 is now available. You can now get the latest news about the specification

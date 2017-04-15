@@ -4,7 +4,8 @@ const Handlebars = require("handlebars");
 
 const defaults = {
   pattern: "**/*.html",
-  directory: "_templates"
+  directory: "_templates",
+  inline: true
 };
 
 function plugin(opts) {
@@ -16,9 +17,16 @@ function plugin(opts) {
 
     Object.keys(files)
         .filter(fileName => minimatch(fileName, cfg.pattern))
+        .filter(filename => !filename.startsWith("_"))
         .forEach(fileName => {
 
           const fileData = files[fileName];
+
+          if (cfg.inline) {
+            const template = Handlebars.compile(fileData.contents.toString());
+            const model = Object.assign({}, metadata, fileData);
+            fileData.contents = new Buffer(template(model));
+          }
 
           let currentData = fileData;
 
@@ -37,8 +45,8 @@ function plugin(opts) {
             );
 
             // build the model
-            const model = Object.assign({}, metadata, currentData, {
-              contents: currentData.contents.toString()
+            const model = Object.assign({}, metadata, fileData, {
+              contents: fileData.contents.toString()
             });
 
             // evaluate the model

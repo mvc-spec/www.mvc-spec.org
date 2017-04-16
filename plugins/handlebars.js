@@ -15,9 +15,11 @@ function plugin(opts) {
 
     const cfg = Object.assign({}, defaults, opts);
 
+    const templateDir = path.normalize(cfg.directory);
+
     Object.keys(files)
         .filter(fileName => minimatch(fileName, cfg.pattern))
-        .filter(filename => !filename.startsWith("_"))
+        .filter(filename => !path.dirname(filename).startsWith(templateDir))
         .forEach(fileName => {
 
           const fileData = files[fileName];
@@ -33,7 +35,7 @@ function plugin(opts) {
           while (currentData.template) {
 
             // locate template
-            const templateName = path.join(cfg.directory, currentData.template);
+            const templateName = path.join(templateDir, currentData.template);
             const templateData = files[templateName];
             if (!templateData) {
               throw new Error("Cannot find template: " + templateName);

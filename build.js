@@ -7,11 +7,13 @@ var excerpts = require('metalsmith-better-excerpts');
 var news = require('./lib/metalsmith/news');
 var handlebars = require('./lib/metalsmith/handlebars');
 var argv = require("yargs").argv;
+var versions = require("./conf/versions.json");
+var helpers = require("./lib/helpers");
 
 // basic Metalsmith setup
 var metalsmith = Metalsmith(__dirname)
     .metadata({
-      versions: require("./conf/versions.json")
+      versions: versions
     })
     .source('./src')
     .destination('./build')
@@ -49,8 +51,9 @@ metalsmith.use(news({
  * template to use using the "template" header property.
  */
 metalsmith.use(handlebars({
-  "pattern": "**/*.html",
-  "directory": "_templates"
+  pattern: "**/*.html",
+  directory: "_templates",
+  helpers: helpers
 }));
 
 /*

@@ -6,7 +6,7 @@
     "build": "node build.js",
     "dev": "npm run serve & npm run watch",
     "serve": "browser-sync start --server build --no-open",
-    "watch": "nodemon -e md,html,js,less,json -w src -w metadata -w plugins -x 'npm run build && browser-sync reload'"
+    "watch": "nodemon -e md,html,js,less,json -w src -w conf -w lib -x 'npm run build && browser-sync reload'"
   },
   "devDependencies": {
     "bootstrap": "3.3.7",

@@ -3,8 +3,6 @@ var markdown = require("metalsmith-markdown");
 var less = require("metalsmith-less");
 var ignore = require("metalsmith-ignore");
 var assets = require("metalsmith-static");
-var serve = require('metalsmith-serve');
-var watch = require('metalsmith-watch');
 var excerpts = require('metalsmith-better-excerpts');
 var news = require('./plugins/news');
 var handlebars = require('./plugins/handlebars');
@@ -81,27 +79,9 @@ metalsmith.use(assets([
   }
 ]));
 
-// special plugins for development mode
-if (argv.dev) {
-
-  // serve the site on port 4444
-  metalsmith.use(serve({
-    port: 4444,
-    verbose: true
-  }));
-
-  // watch relevant files for changes
-  metalsmith.use(watch({
-    paths: {
-      "src/**/*": true,
-      "assets/**/*": true
-    },
-    livereload: true
-  }));
-
-}
-
-// run the build
+/*
+ * Run the build
+ */
 metalsmith.build(function (err) {
   if (err) {
     throw err;

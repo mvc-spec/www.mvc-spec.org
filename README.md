@@ -23,8 +23,8 @@ To start in development mode, start the script like this:
 
     $ npm run dev
 
-You can now point your browser to: [http://localhost:4444/](http://localhost:4444/)
+You can now point your browser to: [http://localhost:3000/](http://localhost:3000/)
 
-If you change any files, the development mode will automatically rebuild the site.
+If you change any files, the script will automatically rebuild the site and refresh the browser.
 
 That's it! :)

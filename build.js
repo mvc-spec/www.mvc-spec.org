@@ -4,8 +4,8 @@ var less = require("metalsmith-less");
 var ignore = require("metalsmith-ignore");
 var assets = require("metalsmith-static");
 var excerpts = require('metalsmith-better-excerpts');
-var news = require('./plugins/news');
-var handlebars = require('./plugins/handlebars');
+var news = require('./lib/metalsmith/news');
+var handlebars = require('./lib/metalsmith/handlebars');
 var argv = require("yargs").argv;
 
 // basic Metalsmith setup

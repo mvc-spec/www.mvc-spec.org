@@ -2,7 +2,11 @@
 template: page.html
 ---
 
+
 <h2>
+  <div class="pull-left" style="padding: 0 1.5rem 1.5rem 0;">
+    <img src="{{gravatarUrl author 60}}" alt="avatar"/>
+  </div>
   {{title}}
   <br/>
   <small>posted by {{fullname author}} on {{date}}</small>

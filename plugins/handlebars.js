@@ -5,18 +5,23 @@ const Handlebars = require("handlebars");
 const defaults = {
   pattern: "**/*.html",
   directory: "_templates",
+  helpers: {},
   inline: true
 };
 
 function plugin(opts) {
   return (files, metalsmith, done) => {
 
-    const metadata = metalsmith.metadata();
-
+    // build effective configuration
     const cfg = Object.assign({}, defaults, opts);
 
+    // add additional helpers
+    Handlebars.registerHelper(cfg.helpers);
+
+    // normalize so we can use startsWith to identify child paths
     const templateDir = path.normalize(cfg.directory);
 
+    // process files and skip irrelevant ones accordingly
     Object.keys(files)
         .filter(fileName => minimatch(fileName, cfg.pattern))
         .filter(filename => !path.dirname(filename).startsWith(templateDir))
@@ -26,7 +31,7 @@ function plugin(opts) {
 
           if (cfg.inline) {
             const template = Handlebars.compile(fileData.contents.toString());
-            const model = Object.assign({}, metadata, fileData);
+            const model = Object.assign({}, metalsmith.metadata(), fileData);
             fileData.contents = new Buffer(template(model));
           }
 
@@ -47,7 +52,7 @@ function plugin(opts) {
             );
 
             // build the model
-            const model = Object.assign({}, metadata, fileData, {
+            const model = Object.assign({}, metalsmith.metadata(), fileData, {
               contents: fileData.contents.toString()
             });
 

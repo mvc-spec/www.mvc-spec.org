@@ -68,7 +68,8 @@ metalsmith.use(less({
  * the file site.
  */
 metalsmith.use(ignore([
-  "**/*.less"
+  "**/*.less",
+  "_templates/**"
 ]));
 
 /*

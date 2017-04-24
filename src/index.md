@@ -1,6 +1,6 @@
 ---
 title: Home
-template: page.html
+template: home.html
 ---
 
 # Overview

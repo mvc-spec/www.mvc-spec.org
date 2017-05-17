@@ -1,0 +1,27 @@
+---
+template: page.html
+---
+
+<div class="row">
+
+  <div class="col-md-8">
+    {{{contents}}}
+  </div>
+
+  <div class="col-md-4">
+    <div class="latest-news">
+      <h2>Latest news</h2>
+      {{#each news.latest}}
+      <h4>{{date}}</h4>
+      <h3>{{title}}</h3>
+      <p class="excerpt">
+        {{excerpt}}
+      </p>
+      <p class="footer">
+        <a href="/{{path}}">read more</a>
+      </p>
+      {{/each}}
+    </div>
+  </div>
+
+</div>

@@ -7,6 +7,11 @@ template: page.html
 
 This page lists various resources for learning more about MVC 1.0.
 
+### MVC 1.0 Cookbook
+
+The [MVC 1.0 Cookbook](/learn/cookbook/) is a collection of small articles
+which describe how to implement common requirements with MVC 1.0.
+
 ### Blog posts
 
   * [Why MVC 1.0 is important for Java EE 8](https://blog.kaltepoth.de/posts/2016/10/07/why-mvc-1-0-is-important-for-java-ee-8.html)

@@ -21,7 +21,7 @@ The API defined by this specification falls into the action-based category and i
 not intended to be a replacement for component-based frameworks such as JavaServer Faces (JSF), 
 but simply a different approach to building Web applications on the Java EE platform.
 
-The MVC API is layered on top of [JAX-RS](https://jax-rs-spec.java.net/) and integrates 
+The MVC API is layered on top of [JAX-RS](https://github.com/jax-rs/spec) and integrates 
 with existing EE technologies like [CDI](https://www.jcp.org/en/jsr/detail?id=365) and 
 [Bean Validation](https://jcp.org/en/jsr/detail?id=349).
 

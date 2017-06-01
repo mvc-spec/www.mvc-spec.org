@@ -16,6 +16,7 @@ which describe how to implement common requirements with MVC 1.0.
 
   * [Why MVC 1.0 is important for Java EE 8](https://blog.kaltepoth.de/posts/2016/10/07/why-mvc-1-0-is-important-for-java-ee-8.html)
   * [View technologies for MVC 1.0](https://blog.kaltepoth.de/posts/2015/04/21/view-technologies-for-mvc-1-0.html)
+  * [Criando uma aplicacao com JSR-371 MVC 1-0](https://danieldiasjava.wordpress.com/2017/01/25/criando-uma-aplicacao-com-jsr-371mvc-1-0/) (In Portuguese/Brazil)
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
 
 ### Talks / Videos

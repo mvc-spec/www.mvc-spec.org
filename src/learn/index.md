@@ -12,11 +12,12 @@ This page lists various resources for learning more about MVC 1.0.
 The [MVC 1.0 Cookbook](/learn/cookbook/) is a collection of small articles
 which describe how to implement common requirements with MVC 1.0.
 
-### articles
+### Articles
 
   * [MVC 1.0 is here to stay](https://jaxenter.com/mvc-1-0-lives-134803.html)
   * [MVC 1.0 JSR will soon belong to the community](https://jaxenter.com/mvc-given-to-community-131223.html)
   * [Possible Ways Forward for MVC 1.0](https://dzone.com/articles/possible-ways-forward-for-mvc-10)
+  * [Why Another MVC?](http://www.oracle.com/technetwork/articles/java/mvc-2280472.html)
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
 
 ### Blog posts

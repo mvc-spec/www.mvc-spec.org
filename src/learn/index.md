@@ -16,6 +16,7 @@ which describe how to implement common requirements with MVC 1.0.
 
   * [MVC 1.0 is here to stay](https://jaxenter.com/mvc-1-0-lives-134803.html)
   * [MVC 1.0 JSR will soon belong to the community](https://jaxenter.com/mvc-given-to-community-131223.html)
+  *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
 
 ### Blog posts
 

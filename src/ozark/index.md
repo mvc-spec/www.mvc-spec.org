@@ -14,7 +14,7 @@ Ozark is the reference implementation (RI) for JSR 371.
   
 ### Documentation
 
-  * [Deployment Guide for Wildfly](install_wildfly)
+  * [Deployment Guide for Wildfly](docs/install_wildfly.html)
   
     
 ### Contribute

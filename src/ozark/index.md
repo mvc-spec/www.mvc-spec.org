@@ -12,6 +12,11 @@ Ozark is the reference implementation (RI) for JSR 371.
   * [Source Code](https://github.com/mvc-spec/ozark)
   * [Issue Tracker](https://github.com/mvc-spec/ozark/issues)
   
+### Documentation
+
+  * [Deployment Guide for Wildfly](docs/install_wildfly.html)
+  
+    
 ### Contribute
 
 Feel free to join our mailing lists:

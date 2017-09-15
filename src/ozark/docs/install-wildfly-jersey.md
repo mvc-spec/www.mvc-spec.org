@@ -1,11 +1,11 @@
 ---
-title: Deployment Guide for Wildfly
+title: Install Guide for Wildfly
 template: page.html
 ---
 
-## Deployment Guide for Wildfly
+## Install Guide for Wildfly
 
-The MVC implementation Ozark is based on Jersey. This makes is a little bit tricky to get MVC running on Wildfly, because Wildfly provides with ReastEasy a competing JAX-RS implementation. 
+The MVC implementation Ozark is based on Jersey. This makes is a little bit tricky to get MVC running on Wildfly, because Wildfly provides with ReastEasy a competing JAX-RS implementation.
 
 To get Ozark running together with Wildfly first you need to add the Ozark implementation together with the Jersey Dependencies to your project. The the following pom.xml example showing the dependency configuration:
 
@@ -61,20 +61,20 @@ In the next step you need to provide two wildfly deployment descriptors to ensur
 ### 1. Deactivate Wildfly JAX-RS RestEasy Subsystem
 To deactivate RestEasy add the file "*jboss-deployment-structure.xml*" into the WEB-INF-folder with the following content:
 
-	<?xml version="1.0" encoding="UTF-8"?> 
-	<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2"> 
-	 <deployment> 
-	  <exclude-subsystems> 
-	   <subsystem name="jaxrs" /> 
-	  </exclude-subsystems> 
-	 </deployment> 
+	<?xml version="1.0" encoding="UTF-8"?>
+	<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
+	 <deployment>
+	  <exclude-subsystems>
+	   <subsystem name="jaxrs" />
+	  </exclude-subsystems>
+	 </deployment>
 	</jboss-deployment-structure>
 
 ### 2. Prevent implizit bean archives without beans.xml
 To deactivate bean archives with a beans.xml add the file "*jboss-all.xml*" into the Web-INF folder with the following content:
 
-	<jboss xmlns="urn:jboss:1.0"> 
-	   <weld xmlns="urn:jboss:weld:1.0" require-bean-descriptor="true"/> 
+	<jboss xmlns="urn:jboss:1.0">
+	   <weld xmlns="urn:jboss:weld:1.0" require-bean-descriptor="true"/>
 	</jboss>
 
 See also: https://docs.jboss.org/author/display/WFLY8/CDI+Reference
@@ -87,5 +87,3 @@ Finally make sure that your web project contain an empty beans.xml file in the W
 	       xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd"
 	       version="1.1" bean-discovery-mode="all">
 	</beans>
-
-

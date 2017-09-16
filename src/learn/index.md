@@ -34,6 +34,7 @@ which describe how to implement common requirements with MVC 1.0.
   * [Why MVC 1.0 is important for Java EE 8](https://blog.kaltepoth.de/posts/2016/10/07/why-mvc-1-0-is-important-for-java-ee-8.html)
   * [View technologies for MVC 1.0](https://blog.kaltepoth.de/posts/2015/04/21/view-technologies-for-mvc-1-0.html)
   * [MVC 1.0 is Back!](http://www.agilejava.eu/2017/01/18/mvc-1-0-is-back/)
+  * [MVC on Wildfly](https://medium.com/@Gregor_70338/mvc-on-wildfly-2b00548cd2b5)
   * [Java EE 8 MVC with Ozark and Apache Tomcat](http://vytas.io/blog/java/Java-EE-8-MVC-with-Ozark-and-Apache-Tomcat/)
   * [Java EE 8 MVC (JSR-371) Example](http://www.adam-bien.com/roller/abien/entry/java_ee_8_mvc_jsr)
   * [Java EE 8 MVC: Global exception handling](http://www.mscharhag.com/java-ee-mvc/global-exception-handling)

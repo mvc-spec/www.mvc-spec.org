@@ -56,4 +56,4 @@ which describe how to implement common requirements with MVC 1.0.
   * [Introduction to MVC 1.0, David Delabassee](https://www.youtube.com/watch?v=xgjdaI8ZVL8)
   * [MVC 1.0 (JSR 371)](https://www.youtube.com/watch?v=zzwYqNHUrgs)
   * [Playing With MVC and Java EE 8](https://www.youtube.com/watch?v=jSrguLe20h0)
-  * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
+  * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/src/learn/index.md)*

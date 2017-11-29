@@ -26,7 +26,7 @@ The MVC logo is free to use under the Creative Commons Attribution-NoDerivatives
 [MVC Logo @mvc_spec (CMYK)](../img/Logo_MVC_twitter_cmyk.png)
 
 <img src="../img/Logo_MVC_www_cmyk.png" width="50"/>
-[MVC Logo mvc-spec.ort (CMYK)](../img/Logo_MVC_www_cmyk.png)
+[MVC Logo mvc-spec.org (CMYK)](../img/Logo_MVC_www_cmyk.png)
 
 ### Contributions
 

@@ -1,5 +1,5 @@
 ---
-title: Apache License, Version 2.0 Selected
+title: New MVC 1.0 Logo!
 author: ivargrimstad
 template: news.html
 ---

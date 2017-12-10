@@ -38,7 +38,7 @@ to your application:
 </dependency>
 ```
 
-### Wildfly and JBoss EAP
+#### Wildfly and JBoss EAP
 
 Wildfly is using RESTEasy for JAX-RS. So you need to Ozark RESTEasy integration module:
 
@@ -55,7 +55,7 @@ Wildfly is using RESTEasy for JAX-RS. So you need to Ozark RESTEasy integration 
 </dependency>
 ```
 
-### Wildfly Swarm
+#### Wildfly Swarm
 
 We currently don't have a dedicated fraction for wildfly Swarm, but you can use the
 JAX-RS fraction and add the same dependencies as required for Wildfly:
@@ -77,7 +77,7 @@ JAX-RS fraction and add the same dependencies as required for Wildfly:
 </dependency>
 ```
 
-### Apache TomEE
+#### Apache TomEE
 
 Apache TomEE uses CXF as the JAX-RS implementation. Unfortunately there are some known bugs in CXF
 which are causing trouble for Ozark. The latest CXF release should fix these issues, but Apache TomEE

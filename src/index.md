@@ -45,7 +45,7 @@ public class HelloController {
 
 # Releases
 
-Early Draft Release 2. Available via Maven:
+The Public Review version is available via Maven:
 
 ```xml
 <dependency>

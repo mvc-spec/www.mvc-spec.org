@@ -6,13 +6,14 @@
     "build": "node build.js",
     "dev": "npm run serve & npm run watch",
     "serve": "browser-sync start --server build --no-open",
-    "watch": "nodemon -e md,html,js,less,json -w src -w conf -w lib -x 'npm run build && browser-sync reload'"
+    "watch": "nodemon -e md,html,js,less,json,adoc -w src -w conf -w lib -x 'npm run build && browser-sync reload'"
   },
   "devDependencies": {
     "bootstrap": "3.3.7",
     "browser-sync": "^2.18.8",
     "handlebars": "4.0.5",
     "metalsmith": "1.7.0",
+    "metalsmith-asciidoctor": "^1.1.0",
     "metalsmith-better-excerpts": "^0.1.7",
     "metalsmith-ignore": "0.1.2",
     "metalsmith-less": "2.0.0",

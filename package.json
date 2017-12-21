@@ -11,6 +11,7 @@
   "devDependencies": {
     "bootstrap": "3.3.7",
     "browser-sync": "^2.18.8",
+    "font-awesome": "^4.7.0",
     "handlebars": "4.0.5",
     "metalsmith": "1.7.0",
     "metalsmith-asciidoctor": "^1.1.0",

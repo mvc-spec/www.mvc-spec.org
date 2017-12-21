@@ -31,7 +31,12 @@ metalsmith.use(markdown({
  * Transform Asciidoc files to HTML
  */
 metalsmith.use(asciidoctor({
-  pattern: "**/*.adoc"
+  pattern: "**/*.adoc",
+  options: {
+    attributes: {
+      "icons": "font"
+    }
+  }
 }));
 
 /*
@@ -88,6 +93,10 @@ metalsmith.use(assets([
   {
     "src": "assets",
     "dest": "."
+  },
+  {
+    "src": "node_modules/font-awesome/fonts",
+    "dest": "fonts"
   }
 ]));
 

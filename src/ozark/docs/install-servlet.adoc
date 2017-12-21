@@ -3,28 +3,39 @@ title: Install Guide for Servlet Containers
 template: page.html
 ---
 
-## Install Guide for Servlet Containers
+[[install-guide-for-servlet-containers]]
+Install Guide for Servlet Containers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The simplest way to get started with MVC is to deploy your app to a JavaEE 7 application server. 
-In this setup the application server will provider JAX-RS, CDI and Beań Validation implemnetations 
-for you. Please refer to [Install Guide for Java EE](install-javaee.html) for details about this setup.
+The simplest way to get started with MVC is to deploy your app to a
+JavaEE 7 application server. In this setup the application server will
+provider JAX-RS, CDI and Beań Validation implemnetations for you. Please
+refer to link:install-javaee.html[Install Guide for Java EE] for details
+about this setup.
 
-However, there is a large number of users who prefer to run their applications on plain Servlet 
-containers like Apache Tomcat and Jetty. In this setup you will have to provider JAX-RS, 
-CDI and Bean Validations yourself.
+However, there is a large number of users who prefer to run their
+applications on plain Servlet containers like Apache Tomcat and Jetty.
+In this setup you will have to provider JAX-RS, CDI and Bean Validations
+yourself.
 
-In this guide we will show you how to run Ozark on Apache Tomcat using Weld, RESTEasy and 
-Hibernate Validator.
+In this guide we will show you how to run Ozark on Apache Tomcat using
+Weld, RESTEasy and Hibernate Validator.
 
-Note: The MVC specification and Ozark are under active development. Therefore, you will have to add 
-the Sonatype OSS snapshot repository to your POM to get the latest and greatest version. 
-Please refer to [Setting up the snapshot repository](install-snapshots.html) for details.
+Note: The MVC specification and Ozark are under active development.
+Therefore, you will have to add the Sonatype OSS snapshot repository to
+your POM to get the latest and greatest version. Please refer to
+link:install-snapshots.html[Setting up the snapshot repository] for
+details.
 
-### Required dependencies
+[[required-dependencies]]
+Required dependencies
+^^^^^^^^^^^^^^^^^^^^^
 
-The following `pom.xml` example shows the dependency configuration for your application:
+The following `pom.xml` example shows the dependency configuration for
+your application:
 
-```xml
+[source,xml]
+----
 <!-- Get the API JARs for Java EE 7 -->
 <dependency>
     <groupId>javax</groupId>
@@ -69,13 +80,17 @@ The following `pom.xml` example shows the dependency configuration for your appl
     <artifactId>ozark-resteasy</artifactId>
     <version>{{versions.ozark.develop}}</version>
 </dependency>
-```
+----
 
-### Configuration files
+[[configuration-files]]
+Configuration files
+^^^^^^^^^^^^^^^^^^^
 
-Make sure to add an empty `beans.xml` file in your `/src/main/webapp/WEB-INF` folder:
+Make sure to add an empty `beans.xml` file in your
+`/src/main/webapp/WEB-INF` folder:
 
-```xml
+[source,xml]
+----
 <?xml version="1.0"?>
 <beans xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -83,11 +98,13 @@ Make sure to add an empty `beans.xml` file in your `/src/main/webapp/WEB-INF` fo
        version="1.1" bean-discovery-mode="all">
 
 </beans>
-```
+----
 
-Please also add a file called `context.xml` to `src/main/resources/META-INF`:
+Please also add a file called `context.xml` to
+`src/main/resources/META-INF`:
 
-```xml
+[source,xml]
+----
 <?xml version="1.0" encoding="UTF-8"?>
 <Context>
 
@@ -96,15 +113,18 @@ Please also add a file called `context.xml` to `src/main/resources/META-INF`:
              factory="org.jboss.weld.resources.ManagerObjectFactory"/>
 
 </Context>
-```
+----
 
-This file `context.xml` is essential for the operation of the CDI in Tomcat as described in
-the [Weld documentation](http://docs.jboss.org/weld/reference/latest/en-US/html_single/#tomcat). 
+This file `context.xml` is essential for the operation of the CDI in
+Tomcat as described in the
+http://docs.jboss.org/weld/reference/latest/en-US/html_single/#tomcat[Weld
+documentation].
 
-The file to create is called `web.xml` and should be placed in the `src/main/webapp/WEB-INF`
-directory:
+The file to create is called `web.xml` and should be placed in the
+`src/main/webapp/WEB-INF` directory:
 
-```xml
+[source,xml]
+----
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://java.sun.com/xml/ns/javaee"
@@ -127,6 +147,6 @@ directory:
   </context-param>
 
 </web-app>
-```
+----
 
 That's all. Now you can start developing your first MVC 1.0 application.

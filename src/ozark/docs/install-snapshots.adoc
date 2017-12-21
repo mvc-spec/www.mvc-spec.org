@@ -9,8 +9,6 @@ The MVC specification and Ozark are under active development. Therefore, we reco
 snapshots for your experiments. This will ensure, that you are using the latest version of both the API 
 and the implementation.
 
-Sonatype OSS snapshot repository
-
 To get the latest snapshots for your project, you will have to add 
 the https://oss.sonatype.org/content/repositories/snapshots[Sonatype OSS snapshot repository] to your POM. 
 To do so, just add the following configuration to your `pom.xml`:

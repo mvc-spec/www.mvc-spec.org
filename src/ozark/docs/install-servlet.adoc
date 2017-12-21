@@ -3,36 +3,26 @@ title: Install Guide for Servlet Containers
 template: page.html
 ---
 
-[[install-guide-for-servlet-containers]]
-Install Guide for Servlet Containers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+== Install Guide for Servlet Containers
 
-The simplest way to get started with MVC is to deploy your app to a
-JavaEE 7 application server. In this setup the application server will
-provider JAX-RS, CDI and Beań Validation implemnetations for you. Please
-refer to link:install-javaee.html[Install Guide for Java EE] for details
+The simplest way to get started with MVC is to deploy your app to a JavaEE 7 application server. 
+In this setup the application server will provider JAX-RS, CDI and Beań Validation implemnetations 
+for you. Please refer to link:install-javaee.html[Install Guide for Java EE] for details
 about this setup.
 
-However, there is a large number of users who prefer to run their
-applications on plain Servlet containers like Apache Tomcat and Jetty.
-In this setup you will have to provider JAX-RS, CDI and Bean Validations
+However, there is a large number of users who prefer to run their applications on plain Servlet containers 
+like Apache Tomcat and Jetty. In this setup you will have to provider JAX-RS, CDI and Bean Validations
 yourself.
 
-In this guide we will show you how to run Ozark on Apache Tomcat using
-Weld, RESTEasy and Hibernate Validator.
+In this guide we will show you how to run Ozark on Apache Tomcat using Weld, RESTEasy and Hibernate Validator.
 
-Note: The MVC specification and Ozark are under active development.
-Therefore, you will have to add the Sonatype OSS snapshot repository to
-your POM to get the latest and greatest version. Please refer to
-link:install-snapshots.html[Setting up the snapshot repository] for
-details.
+NOTE: The MVC specification and Ozark are under active development. Therefore, we recommend to use the latest 
+snapshots for your experiments. This will ensure, that you are using the latest version of both the API 
+and the implementation. Please refer to link:install-snapshots.html[Using the latest snapshots] to learn more. 
 
-[[required-dependencies]]
-Required dependencies
-^^^^^^^^^^^^^^^^^^^^^
+=== Required dependencies
 
-The following `pom.xml` example shows the dependency configuration for
-your application:
+The following `pom.xml` example shows the dependency configuration for your application:
 
 [source,xml]
 ----
@@ -73,21 +63,18 @@ your application:
 <dependency>
     <groupId>javax.mvc</groupId>
     <artifactId>javax.mvc-api</artifactId>
-    <version>{{versions.spec.develop}}</version>
+    <version>{{versions.spec.latest}}</version>
 </dependency>
 <dependency>
     <groupId>org.mvc-spec.ozark</groupId>
     <artifactId>ozark-resteasy</artifactId>
-    <version>{{versions.ozark.develop}}</version>
+    <version>{{versions.ozark.latest}}</version>
 </dependency>
 ----
 
-[[configuration-files]]
-Configuration files
-^^^^^^^^^^^^^^^^^^^
+=== Configuration files
 
-Make sure to add an empty `beans.xml` file in your
-`/src/main/webapp/WEB-INF` folder:
+Make sure to add an empty `beans.xml` file in your `/src/main/webapp/WEB-INF` folder:
 
 [source,xml]
 ----
@@ -100,8 +87,7 @@ Make sure to add an empty `beans.xml` file in your
 </beans>
 ----
 
-Please also add a file called `context.xml` to
-`src/main/resources/META-INF`:
+Please also add a file called `context.xml` to `src/main/resources/META-INF`:
 
 [source,xml]
 ----
@@ -115,13 +101,10 @@ Please also add a file called `context.xml` to
 </Context>
 ----
 
-This file `context.xml` is essential for the operation of the CDI in
-Tomcat as described in the
-http://docs.jboss.org/weld/reference/latest/en-US/html_single/#tomcat[Weld
-documentation].
+This file `context.xml` is essential for the operation of the CDI in Tomcat as described in the 
+link:http://docs.jboss.org/weld/reference/latest/en-US/html_single/#tomcat[Weld documentation].
 
-The file to create is called `web.xml` and should be placed in the
-`src/main/webapp/WEB-INF` directory:
+The file to create is called `web.xml` and should be placed in the `src/main/webapp/WEB-INF` directory:
 
 [source,xml]
 ----

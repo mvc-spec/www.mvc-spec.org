@@ -3,8 +3,7 @@ title: Install Guide for Java EE
 template: page.html
 ---
 
-[[setting-up-the-snapshot-repository]]
-== Setting up the snapshot repository
+== Using the latest snapshots
 
 The MVC specification and Ozark are under active development. Therefore, we recommend to use the latest 
 snapshots for your experiments. This will ensure, that you are using the latest version of both the API 

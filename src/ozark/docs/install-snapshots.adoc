@@ -31,9 +31,20 @@ To do so, just add the following configuration to your `pom.xml`:
 
 By adding this repository to your POM, you will be able to use the snapshot versions of the various artifacts:
 
-* **Specification:**
-** Stable version: `{{versions.spec.latest}}`
-** Snapshot version: `{{versions.spec.develop}}`
-* **Ozark (RI):**
-** Stable version: `{{versions.ozark.latest}}`
-** Snapshot version: `{{versions.ozark.develop}}`
+
+[cols="2,2,3" ,options="header"]
+|===
+
+| Artifact
+| Stable version
+| Snapshot version
+
+| Specification
+| `{{versions.spec.latest}}`
+| `{{versions.spec.develop}}`
+
+| Ozark (RI)
+| `{{versions.ozark.latest}}`
+| `{{versions.ozark.develop}}`
+
+|===

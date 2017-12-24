@@ -1,5 +1,6 @@
 var Metalsmith = require("metalsmith");
 var markdown = require("metalsmith-markdown");
+var asciidoctor = require("metalsmith-asciidoctor");
 var less = require("metalsmith-less");
 var ignore = require("metalsmith-ignore");
 var assets = require("metalsmith-static");
@@ -24,6 +25,18 @@ var metalsmith = Metalsmith(__dirname)
  */
 metalsmith.use(markdown({
   // optional marked options
+}));
+
+/*
+ * Transform Asciidoc files to HTML
+ */
+metalsmith.use(asciidoctor({
+  pattern: "**/*.adoc",
+  options: {
+    attributes: {
+      "icons": "font"
+    }
+  }
 }));
 
 /*
@@ -80,6 +93,10 @@ metalsmith.use(assets([
   {
     "src": "assets",
     "dest": "."
+  },
+  {
+    "src": "node_modules/font-awesome/fonts",
+    "dest": "fonts"
   }
 ]));
 

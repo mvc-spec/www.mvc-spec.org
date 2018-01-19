@@ -27,6 +27,7 @@ which describe how to implement common requirements with MVC 1.0.
   * [First Look at JSR 371, MVC 1.0 Specification and Ozark RI](https://www.voxxed.com/2015/03/first-look-at-jsr-371-mvc-1-0-specification-and-ozark-ri/)
   * [Introduction to the New MVC 1.0 (Ozark RI)](http://www.developer.com/java/ent/introduction-to-the-new-mvc-1.0-ozark-ri.html)
   * [Getting Started with Action-oriented MVC on Java EE 8](http://mrbool.com/getting-started-with-action-oriented-mvc-on-java-ee-8/34525)
+  * [Bringing MVC with MongoDB](https://dzone.com/articles/bringing-mvc-with-mongodb)
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
 
 ### Blog posts
@@ -45,6 +46,8 @@ which describe how to implement common requirements with MVC 1.0.
   * [Java EE 8 MVC: A detailed look at Controllers](http://www.mscharhag.com/java-ee-mvc/a-detailed-look-on-mvc-controllers)
   * [Java EE 8 MVC: Getting started with Ozark](http://www.mscharhag.com/java-ee-mvc/ozark-getting-started)
   * [Criando uma aplicação com JSR-371 MVC 1-0](https://danieldiasjava.wordpress.com/2017/01/25/criando-uma-aplicacao-com-jsr-371mvc-1-0/) (In Portuguese/Brazil)
+  * [JSR-371 ( MVC 1.0 )–Com TomCat & TomEE](https://danieldiasjava.wordpress.com/2018/01/05/jsr-371-mvc-1-0-com-tomcat-tomee/) (In Portuguese/Brazil)
+  * [JSR-371 ( MVC 1.0 )–Validação](https://danieldiasjava.wordpress.com/2018/01/05/jsr-371-mvc-1-0-validacao/) (In Portuguese/Brazil)
   * [Conheça a MVC 1.0, a nova JSR para um framework MVC action-based na JEE 8](http://www.rponte.com.br/2014/09/02/conheca-a-mvc-1-0-a-nova-jsr-para-um-framework-mvc-action-based-na-jee-8/) (In Portuguese/Brazil)
   * [MVC 1.0: JSR para um framework MVC action-based na Java EE 8](http://blog.triadworks.com.br/mvc-1-0-jsr-para-um-framework-mvc-action-based-na-java-ee-8) (In Portuguese/Brazil)
   * [Primeiros passos com a especificação do MVC 1.0](http://blog.caelum.com.br/primeiros-passos-do-mvc-1-0/) (In Portuguese/Brazil)

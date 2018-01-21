@@ -28,6 +28,7 @@ which describe how to implement common requirements with MVC 1.0.
   * [Introduction to the New MVC 1.0 (Ozark RI)](http://www.developer.com/java/ent/introduction-to-the-new-mvc-1.0-ozark-ri.html)
   * [Getting Started with Action-oriented MVC on Java EE 8](http://mrbool.com/getting-started-with-action-oriented-mvc-on-java-ee-8/34525)
   * [Bringing MVC with MongoDB](https://dzone.com/articles/bringing-mvc-with-mongodb)
+  
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
 
 ### Blog posts
@@ -51,6 +52,7 @@ which describe how to implement common requirements with MVC 1.0.
   * [Conheça a MVC 1.0, a nova JSR para um framework MVC action-based na JEE 8](http://www.rponte.com.br/2014/09/02/conheca-a-mvc-1-0-a-nova-jsr-para-um-framework-mvc-action-based-na-jee-8/) (In Portuguese/Brazil)
   * [MVC 1.0: JSR para um framework MVC action-based na Java EE 8](http://blog.triadworks.com.br/mvc-1-0-jsr-para-um-framework-mvc-action-based-na-java-ee-8) (In Portuguese/Brazil)
   * [Primeiros passos com a especificação do MVC 1.0](http://blog.caelum.com.br/primeiros-passos-do-mvc-1-0/) (In Portuguese/Brazil)
+
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
 
 ### Talks / Videos
@@ -62,4 +64,18 @@ which describe how to implement common requirements with MVC 1.0.
   * [Modern Web Apps with HTML5 Web Components, Polymer, and Java EE MVC 1.0](https://www.youtube.com/watch?v=xn_aKV36j30)
     * [Sample app and slides](https://github.com/kito99/polymer-javaee-mvc-todo)
   
+ 
+ * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/src/learn/index.md)*
+
+### Slides
+
+  * [MVC 1.0 / JSR 371 - David Delabassee](https://pt.slideshare.net/delabassee/mvc-10-jsr-371)
+  * [New MVC 1.0 JavaEE 8 API - Trayan LLiev](https://pt.slideshare.net/Trayan_Iliev/new-mvc-10-javaee-8-api)
+  * [MVC 1.0: Zeitgemäße Webanwendungen in JavaEE - open knowledge GmbH ](https://pt.slideshare.net/_openknowledge/mvc-10-zeitgeme-webanwendungen-in-javaee)
+  * [Getting start Java EE Action-Based MVC with Thymeleaf - Masatoshi Tada](https://pt.slideshare.net/masatoshitada7/getting-start-java-ee-actionbased-mvc-with-thymeleaf)
+  * [Java EE 8 Web Frameworks: A Look at JSF vs MVC - Josh Juneau](https://pt.slideshare.net/javajuneau/java-ee-8-web-frameworks-a-look-at-jsf-vs-mvc)
+  * [MVC 1.0 - by Example @ GIDS 2016 - Ivar Grimstad](https://speakerdeck.com/ivargrimstad/mvc-1-dot-0-by-example-at-gids-2016)
+  * [MVC 1.0 - Now Even Better! - Ivar Grimstad](https://speakerdeck.com/ivargrimstad/mvc-1-dot-0-now-even-better-1)
+  * [Java EE / EE4J MVC (JSR-371) - Daniel Dias](https://pt.slideshare.net/DanielSantos50/java-ee-ee4j-mvc-jsr371) (In Portuguese/Brazil)
+ 
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/src/learn/index.md)*

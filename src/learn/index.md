@@ -28,6 +28,7 @@ which describe how to implement common requirements with MVC 1.0.
   * [Introduction to the New MVC 1.0 (Ozark RI)](http://www.developer.com/java/ent/introduction-to-the-new-mvc-1.0-ozark-ri.html)
   * [Getting Started with Action-oriented MVC on Java EE 8](http://mrbool.com/getting-started-with-action-oriented-mvc-on-java-ee-8/34525)
   * [Bringing MVC with MongoDB](https://dzone.com/articles/bringing-mvc-with-mongodb)
+  * [Public Review of Java MVC 1.0 Specification is Now Open](https://www.infoq.com/news/2018/01/mvc-1.0-public-review)
   
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
 

@@ -8,7 +8,7 @@ template: page.html
 ### Latest version
 
   * [Specification](https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&g=javax.mvc&a=javax.mvc-api&v=LATEST&c=spec&p=pom&e=pdf)
-  * [TCK coverage report](/spec/tck-coverage/)
+  * [TCK coverage report](/spec/tck-coverage/index.html)
 
 ### Public Review (PR)
 

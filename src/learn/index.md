@@ -54,6 +54,7 @@ which describe how to implement common requirements with MVC 1.0.
   * [MVC 1.0: JSR para um framework MVC action-based na Java EE 8](http://blog.triadworks.com.br/mvc-1-0-jsr-para-um-framework-mvc-action-based-na-java-ee-8) (In Portuguese/Brazil)
   * [Primeiros passos com a especificação do MVC 1.0](http://blog.caelum.com.br/primeiros-passos-do-mvc-1-0/) (In Portuguese/Brazil)
   * [The Way from JSF to MVC 1.0, for the established JSF developer...](https://ralph.blog.imixs.com/2018/04/27/the-way-from-jsf-to-mvc-1-0/)
+  * [First MVC 1.0 Workflow Sample Application](http://blog.imixs.org/first-mvc-1-0-workflow-app/)
 
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
 

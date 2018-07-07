@@ -65,6 +65,7 @@ which describe how to implement common requirements with MVC 1.0.
   * [MVC 1.0 (JSR 371)](https://www.youtube.com/watch?v=zzwYqNHUrgs)
   * [Playing With MVC and Java EE 8](https://www.youtube.com/watch?v=jSrguLe20h0)
   * [Modern Web Apps with HTML5 Web Components, Polymer, and Java EE MVC 1.0](https://www.youtube.com/watch?v=xn_aKV36j30)
+  * [JSR-371 Model-View-Controller](https://www.youtube.com/watch?v=hRQ5E80ehdw) (In Portuguese/Brazil)
     * [Sample app and slides](https://github.com/kito99/polymer-javaee-mvc-todo)
   
  
@@ -79,6 +80,6 @@ which describe how to implement common requirements with MVC 1.0.
   * [Java EE 8 Web Frameworks: A Look at JSF vs MVC - Josh Juneau](https://pt.slideshare.net/javajuneau/java-ee-8-web-frameworks-a-look-at-jsf-vs-mvc)
   * [MVC 1.0 - by Example @ GIDS 2016 - Ivar Grimstad](https://speakerdeck.com/ivargrimstad/mvc-1-dot-0-by-example-at-gids-2016)
   * [MVC 1.0 - Now Even Better! - Ivar Grimstad](https://speakerdeck.com/ivargrimstad/mvc-1-dot-0-now-even-better-1)
-  * [Java EE / EE4J MVC (JSR-371) - Daniel Dias](https://pt.slideshare.net/DanielSantos50/java-ee-ee4j-mvc-jsr371) (In Portuguese/Brazil)
+  * [JSR-371 - Model-View-Controller) - Daniel Dias](https://docs.google.com/presentation/d/1e_y5QHXwA_3odELEeIS7p2Ni0EC1qF5f2CQ-vh1epoo) (In Portuguese/Brazil)
  
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/src/learn/index.md)*

@@ -65,8 +65,8 @@ which describe how to implement common requirements with MVC 1.0.
   * [MVC 1.0 (JSR 371)](https://www.youtube.com/watch?v=zzwYqNHUrgs)
   * [Playing With MVC and Java EE 8](https://www.youtube.com/watch?v=jSrguLe20h0)
   * [Modern Web Apps with HTML5 Web Components, Polymer, and Java EE MVC 1.0](https://www.youtube.com/watch?v=xn_aKV36j30)
-  * [JSR-371 Model-View-Controller](https://www.youtube.com/watch?v=hRQ5E80ehdw) (In Portuguese/Brazil)
     * [Sample app and slides](https://github.com/kito99/polymer-javaee-mvc-todo)
+  * [JSR-371 Model-View-Controller](https://www.youtube.com/watch?v=hRQ5E80ehdw) (In Portuguese/Brazil)
   
  
  * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/src/learn/index.md)*

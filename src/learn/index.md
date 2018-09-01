@@ -56,6 +56,7 @@ which describe how to implement common requirements with MVC 1.0.
   * [The Way from JSF to MVC 1.0, for the established JSF developer...](https://ralph.blog.imixs.com/2018/04/27/the-way-from-jsf-to-mvc-1-0/)
   * [First MVC 1.0 Workflow Sample Application](http://blog.imixs.org/first-mvc-1-0-workflow-app/)
   * [Getting Started With MVC 1.0 (JSR 371)](https://www.kodnito.com/posts/getting-started-with-mvc-1-0-jsr-371/)
+  * [Ozark becomes Eclipse Krazo](https://www.agilejava.eu/2018/08/31/ozark-becomes-eclipse-krazo/)
 
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
 

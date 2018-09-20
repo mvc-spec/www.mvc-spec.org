@@ -1,10 +1,10 @@
 {
   "spec": {
-    "latest": "1.0-pr",
+    "latest": "1.0-pfd",
     "develop": "1.0-SNAPSHOT"
   },
   "ozark": {
-    "latest": "1.0.0-m03",
-    "develop": "1.0.0-m04-SNAPSHOT"
+    "latest": "1.0.0-m04",
+    "develop": "1.0.0-SNAPSHOT"
   }
 }

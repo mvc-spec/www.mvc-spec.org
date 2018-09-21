@@ -10,6 +10,11 @@ template: page.html
   * [Specification](https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&g=javax.mvc&a=javax.mvc-api&v=LATEST&c=spec&p=pom&e=pdf)
   * [TCK coverage report](/spec/tck-coverage/index.html)
 
+### Proposed Final Draft (PFD)
+
+  * [Specification](https://repo1.maven.org/maven2/javax/mvc/javax.mvc-api/1.0-pfd/javax.mvc-api-1.0-pfd-spec.pdf)
+  * [Javadocs](https://javadoc.io/doc/javax.mvc/javax.mvc-api/1.0-pfd)
+
 ### Public Review (PR)
 
   * [Specification](https://repo1.maven.org/maven2/javax/mvc/javax.mvc-api/1.0-pr/javax.mvc-api-1.0-pr-spec.pdf)

@@ -56,15 +56,15 @@ Wildfly is using RESTEasy for JAX-RS. So you need to Ozark RESTEasy integration 
 </dependency>
 ----
 
-==== Wildfly Swarm
+==== Thorntail
 
-We currently don't have a dedicated fraction for wildfly Swarm, but you can use the JAX-RS fraction and add
-the same dependencies as required for Wildfly:
+We currently have a experimental fraction for thorntail, but you too can use the JAX-RS fraction and add
+the same dependencies as required for thorntail:
 
 [source,xml]
 ----
 <dependency>
-    <groupId>org.wildfly.swarm</groupId>
+    <groupId>io.thorntail</groupId>
     <artifactId>jaxrs</artifactId>
 </dependency>
 <dependency>
@@ -76,6 +76,16 @@ the same dependencies as required for Wildfly:
     <groupId>org.mvc-spec.ozark</groupId>
     <artifactId>ozark-resteasy</artifactId>
     <version>{{versions.ozark.latest}}</version>
+</dependency>
+----
+
+using fraction :
+
+[source,xml]
+----
+<dependency>
+    <groupId>io.thorntail</groupId>
+    <artifactId>mvc</artifactId>
 </dependency>
 ----
 
@@ -119,12 +129,17 @@ use this instead of CXF. To do so, use the following depndencies instead.
 <dependency>
     <groupId>org.jboss.resteasy</groupId>
     <artifactId>resteasy-cdi</artifactId>
-    <version>3.1.4.Final</version>
+    <version>3.6.1.Final</version>
 </dependency>
 <dependency>
     <groupId>org.jboss.resteasy</groupId>
     <artifactId>resteasy-servlet-initializer</artifactId>
-    <version>3.1.4.Final</version>
+    <version>3.6.1.Final</version>
+</dependency>
+<dependency>
+    <groupId>org.jboss.resteasy</groupId>
+    <artifactId>resteasy-validator-provider-11</artifactId>
+    <version>3.6.1.Final</version>
 </dependency>
 ----
 

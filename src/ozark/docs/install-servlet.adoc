@@ -5,7 +5,7 @@ template: page.html
 
 == Install Guide for Servlet Containers
 
-The simplest way to get started with MVC is to deploy your app to a JavaEE 7 application server. 
+The simplest way to get started with MVC is to deploy your app to a JavaEE 8 application server. 
 In this setup the application server will provider JAX-RS, CDI and Beań Validation implemnetations 
 for you. Please refer to link:install-javaee.html[Install Guide for Java EE] for details
 about this setup.
@@ -26,37 +26,37 @@ The following `pom.xml` example shows the dependency configuration for your appl
 
 [source,xml]
 ----
-<!-- Get the API JARs for Java EE 7 -->
+<!-- Get the API JARs for Java EE 8 -->
 <dependency>
     <groupId>javax</groupId>
     <artifactId>javaee-web-api</artifactId>
-    <version>7.0</version>
+    <version>8.0</version>
 </dependency>
 
 <!-- Weld  -->
 <dependency>
     <groupId>org.jboss.weld.servlet</groupId>
     <artifactId>weld-servlet-core</artifactId>
-    <version>2.4.3.Final</version>
+    <version>3.0.5.Final</version>
 </dependency>
 
 <!-- RESTEasy -->
 <dependency>
     <groupId>org.jboss.resteasy</groupId>
     <artifactId>resteasy-cdi</artifactId>
-    <version>3.1.4.Final</version>
+    <version>3.6.1.Final</version>
 </dependency>
 <dependency>
     <groupId>org.jboss.resteasy</groupId>
     <artifactId>resteasy-servlet-initializer</artifactId>
-    <version> 3.1.4.Final</version>
+    <version>3.6.1.Final</version>
 </dependency>
 
 <!-- Bean Validation -->
 <dependency>
-    <groupId>org.hibernate</groupId>
-    <artifactId>hibernate-validator</artifactId>
-    <version>5.4.1.Final</version>
+    <groupId>org.jboss.resteasy</groupId>
+    <artifactId>resteasy-validator-provider-11</artifactId>
+    <version>3.6.1.Final</version>
 </dependency>
 
 <!-- MVC + Ozark for RESTEasy-->
@@ -81,8 +81,8 @@ Make sure to add an empty `beans.xml` file in your `/src/main/webapp/WEB-INF` fo
 <?xml version="1.0"?>
 <beans xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/beans_1_1.xsd"
-       version="1.1" bean-discovery-mode="all">
+       xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
+       version="2.0" bean-discovery-mode="all">
 
 </beans>
 ----
@@ -111,8 +111,8 @@ The file to create is called `web.xml` and should be placed in the `src/main/web
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://java.sun.com/xml/ns/javaee"
-         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd"
-         version="3.1">
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
 
   <listener>
     <listener-class>org.jboss.weld.environment.servlet.Listener</listener-class>
@@ -123,7 +123,7 @@ The file to create is called `web.xml` and should be placed in the `src/main/web
     <resource-env-ref-type>javax.enterprise.inject.spi.BeanManager</resource-env-ref-type>
   </resource-env-ref>
 
-  <!--http://docs.jboss.org/resteasy/docs/3.1.4.Final/userguide/html_single/index.html#d4e143 -->
+  <!--http://docs.jboss.org/resteasy/docs/3.6.1.Final/userguide/html_single/index.html#d4e143 -->
   <context-param>
     <param-name>resteasy.injector.factory</param-name>
     <param-value>org.jboss.resteasy.cdi.CdiInjectorFactory</param-value>

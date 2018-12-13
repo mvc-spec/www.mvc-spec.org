@@ -58,8 +58,8 @@ Wildfly is using RESTEasy for JAX-RS. So you need to Ozark RESTEasy integration 
 
 ==== Thorntail
 
-We currently have a experimental fraction for thorntail, but you too can use the JAX-RS fraction and add
-the same dependencies as required for thorntail:
+We currently have an experimental fraction for Thorntail, but you too can use the JAX-RS fraction and add
+the same dependencies as required for Thorntail:
 
 [source,xml]
 ----

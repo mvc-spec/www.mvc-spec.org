@@ -3,8 +3,8 @@
     "latest": "1.0-pfd",
     "develop": "1.0-SNAPSHOT"
   },
-  "ozark": {
-    "latest": "1.0.0-m04",
+  "krazo": {
+    "latest": "1.0.0-SNAPSHOT",
     "develop": "1.0.0-SNAPSHOT"
   }
 }

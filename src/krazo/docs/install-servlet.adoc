@@ -14,9 +14,9 @@ However, there is a large number of users who prefer to run their applications o
 like Apache Tomcat and Jetty. In this setup you will have to provider JAX-RS, CDI and Bean Validations
 yourself.
 
-In this guide we will show you how to run Ozark on Apache Tomcat using Weld, RESTEasy and Hibernate Validator.
+In this guide we will show you how to run Eclipse Krazo on Apache Tomcat using Weld, RESTEasy and Hibernate Validator.
 
-NOTE: The MVC specification and Ozark are under active development. Therefore, we recommend to use the latest 
+NOTE: The MVC specification and Eclipse Krazo are under active development. Therefore, we recommend to use the latest 
 snapshots for your experiments. This will ensure, that you are using the latest version of both the API 
 and the implementation. Please refer to link:install-snapshots.html[Using the latest snapshots] to learn more. 
 
@@ -59,16 +59,16 @@ The following `pom.xml` example shows the dependency configuration for your appl
     <version>3.6.1.Final</version>
 </dependency>
 
-<!-- MVC + Ozark for RESTEasy-->
+<!-- MVC + Eclipse Krazo for RESTEasy-->
 <dependency>
     <groupId>javax.mvc</groupId>
     <artifactId>javax.mvc-api</artifactId>
     <version>{{versions.spec.latest}}</version>
 </dependency>
 <dependency>
-    <groupId>org.mvc-spec.ozark</groupId>
-    <artifactId>ozark-resteasy</artifactId>
-    <version>{{versions.ozark.latest}}</version>
+    <groupId>org.eclipse.krazo</groupId>
+    <artifactId>krazo-resteasy</artifactId>
+    <version>{{versions.krazo.latest}}</version>
 </dependency>
 ----
 

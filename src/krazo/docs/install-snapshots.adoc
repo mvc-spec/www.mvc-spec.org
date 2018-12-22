@@ -5,7 +5,7 @@ template: page.html
 
 == Using the latest snapshots
 
-The MVC specification and Ozark are under active development. Therefore, we recommend to use the latest 
+The MVC specification and Eclipse Krazo are under active development. Therefore, we recommend to use the latest 
 snapshots for your experiments. This will ensure, that you are using the latest version of both the API 
 and the implementation.
 
@@ -43,8 +43,8 @@ By adding this repository to your POM, you will be able to use the snapshot vers
 | `{{versions.spec.latest}}`
 | `{{versions.spec.develop}}`
 
-| Ozark (RI)
-| `{{versions.ozark.latest}}`
-| `{{versions.ozark.develop}}`
+| Eclipse Krazo (RI)
+| N/A
+| `{{versions.krazo.develop}}`
 
 |===

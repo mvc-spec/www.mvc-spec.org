@@ -32,7 +32,7 @@ Feel free to create issues if have feedback or run into problems
 
   * [Specification issue tracker](https://github.com/mvc-spec/mvc-spec/issues)
      * For all spec related issues
-  * [Ozark issue tracker](https://github.com/mvc-spec/ozark/issues)
+  * [Eclipse Krazo issue tracker](https://github.com/eclipse-ee4j/krazo/issues)
      * For issues related to the reference implementation
 
 <a name="blog-posts"></a>
@@ -52,9 +52,9 @@ list of relevant source code repositories:
   * [MVC 1.0 specification](https://github.com/mvc-spec/mvc-spec)
     * Specification document
     * Public API
-  * [Reference implementation (RI)](https://github.com/mvc-spec/ozark)
+  * [Reference implementation (RI)](https://github.com/eclipse-ee4j/krazo)
     * The reference implementation
-    * See the [Ozark section](/ozark/) for more details
+    * See the [Eclipse Krazo section](/krazo/) for more details
   * [Technology Compatibility Kit (TCK)](https://github.com/mvc-spec/mvc-tck)
     * The test suite that implementations need to pass
   * [Website](https://github.com/mvc-spec/www.mvc-spec.org)

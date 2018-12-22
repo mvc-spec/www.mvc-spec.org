@@ -5,12 +5,12 @@ template: page.html
 
 ## Install Guide for Wildfly
 
-Note: This guide is not relevant any more. Today Ozark supports Wildfly using the RESTEasy integration module.
+Note: This guide is not relevant any more. Today Eclipse Krazo supports Wildfly using the RESTEasy integration module.
 However, we decided to keep this guide alive.
 
-The MVC implementation Ozark is based on Jersey. This makes is a little bit tricky to get MVC running on Wildfly, because Wildfly provides with RESTEasy, a competing JAX-RS implementation.
+The MVC implementation Eclipse Krazo is based on Jersey. This makes is a little bit tricky to get MVC running on Wildfly, because Wildfly provides with RESTEasy, a competing JAX-RS implementation.
 
-To get Ozark running together with Wildfly first you need to add the Ozark implementation together with the Jersey dependencies to your project. The the following `pom.xml` example showing the dependency configuration:
+To get Eclipse Krazo running together with Wildfly first you need to add the Eclipse Krazo implementation together with the Jersey dependencies to your project. The the following `pom.xml` example showing the dependency configuration:
 
 ```xml
 <!-- Java EE dependencies -->
@@ -25,12 +25,12 @@ To get Ozark running together with Wildfly first you need to add the Ozark imple
 <dependency>
     <groupId>javax.mvc</groupId>
     <artifactId>javax.mvc-api</artifactId>
-    <version>1.0-edr2</version>
+    <version>{{versions.spec.latest}}</version>
 </dependency>
 <dependency>
-    <groupId>org.glassfish.ozark</groupId>
-    <artifactId>ozark</artifactId>
-    <version>1.0.0-m02</version>
+    <groupId>org.eclipse.krazo</groupId>
+    <artifactId>krazo-jersey</artifactId>
+    <version>{{versions.krazo.latest}}</version>
 </dependency>
 <dependency>
     <groupId>org.glassfish.jersey.containers</groupId>

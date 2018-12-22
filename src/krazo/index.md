@@ -1,16 +1,16 @@
 ---
-title: Ozark
+title: Eclipse Krazo
 template: page.html
 ---
 
-## Ozark
+## Eclipse Krazo
 
-Ozark is the reference implementation (RI) for JSR 371.
+Eclipse Krazo is the reference implementation (RI) for JSR 371.
 
 ### Project resources
 
-  * [Source Code](https://github.com/mvc-spec/ozark)
-  * [Issue Tracker](https://github.com/mvc-spec/ozark/issues)
+  * [Source Code](https://github.com/eclipse-ee4j/krazo)
+  * [Issue Tracker](https://github.com/eclipse-ee4j/krazo/issues)
 
 ### Installation Guides
 
@@ -20,7 +20,6 @@ Ozark is the reference implementation (RI) for JSR 371.
 
 ### Contribute
 
-Feel free to join our mailing lists:
+Feel free to join our mailing list:
 
-  * [Ozark Users](https://groups.google.com/forum/#!forum/ozark-users)
-  * [Ozark Developers](https://groups.google.com/forum/#!forum/ozark-dev)
+  * [Eclipse Krazo Mailing List](https://accounts.eclipse.org/mailing-list/krazo-dev)

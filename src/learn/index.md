@@ -47,9 +47,9 @@ which describe how to implement common requirements with MVC 1.0.
   * [Java EE 8 MVC: Working with query parameters](http://www.mscharhag.com/java-ee-mvc/query-parameters)
   * [Java EE 8 MVC: A detailed look at Controllers](http://www.mscharhag.com/java-ee-mvc/a-detailed-look-on-mvc-controllers)
   * [Java EE 8 MVC: Getting started with Ozark](http://www.mscharhag.com/java-ee-mvc/ozark-getting-started)
-  * [Criando uma aplicação com JSR-371 MVC 1-0](https://danieldiasjava.wordpress.com/2017/01/25/criando-uma-aplicacao-com-jsr-371mvc-1-0/) (In Portuguese/Brazil)
-  * [JSR-371 ( MVC 1.0 )–Com TomCat & TomEE](https://danieldiasjava.wordpress.com/2018/01/05/jsr-371-mvc-1-0-com-tomcat-tomee/) (In Portuguese/Brazil)
-  * [JSR-371 ( MVC 1.0 )–Validação](https://danieldiasjava.wordpress.com/2018/01/05/jsr-371-mvc-1-0-validacao/) (In Portuguese/Brazil)
+  * [Criando uma aplicação com JSR-371 MVC 1-0](https://medium.com/danieldiasjava/criando-uma-aplica%C3%A7%C3%A3o-com-jsr-371-mvc-1-0-13635d0fc41f) (In Portuguese/Brazil)
+  * [JSR-371 ( MVC 1.0 )–Com TomCat & TomEE](https://medium.com/danieldiasjava/jsr-371-mvc-1-0-com-tomcat-tomee-45f9638f276c) (In Portuguese/Brazil)
+  * [JSR-371 ( MVC 1.0 )–Validação](https://medium.com/danieldiasjava/jsr-371-mvc-1-0-valida%C3%A7%C3%A3o-248f58e370dc) (In Portuguese/Brazil)
   * [Conheça a MVC 1.0, a nova JSR para um framework MVC action-based na JEE 8](http://www.rponte.com.br/2014/09/02/conheca-a-mvc-1-0-a-nova-jsr-para-um-framework-mvc-action-based-na-jee-8/) (In Portuguese/Brazil)
   * [MVC 1.0: JSR para um framework MVC action-based na Java EE 8](http://blog.triadworks.com.br/mvc-1-0-jsr-para-um-framework-mvc-action-based-na-java-ee-8) (In Portuguese/Brazil)
   * [Primeiros passos com a especificação do MVC 1.0](http://blog.caelum.com.br/primeiros-passos-do-mvc-1-0/) (In Portuguese/Brazil)
@@ -84,5 +84,6 @@ which describe how to implement common requirements with MVC 1.0.
   * [MVC 1.0 - by Example @ GIDS 2016 - Ivar Grimstad](https://speakerdeck.com/ivargrimstad/mvc-1-dot-0-by-example-at-gids-2016)
   * [MVC 1.0 - Now Even Better! - Ivar Grimstad](https://speakerdeck.com/ivargrimstad/mvc-1-dot-0-now-even-better-1)
   * [JSR-371 - Model-View-Controller) - Daniel Dias](https://docs.google.com/presentation/d/1e_y5QHXwA_3odELEeIS7p2Ni0EC1qF5f2CQ-vh1epoo) (In Portuguese/Brazil)
+  * [#TCMaoNaMassa - Eclipse Krazo (MVC) - Daniel Dias - Live Code](https://www.youtube.com/watch?v=e5gsX5lMlrY) (In Portuguese/Brazil)
  
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/src/learn/index.md)*

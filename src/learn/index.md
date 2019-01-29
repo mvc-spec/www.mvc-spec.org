@@ -58,6 +58,9 @@ which describe how to implement common requirements with MVC 1.0.
   * [Getting Started With MVC 1.0 (JSR 371)](https://www.kodnito.com/posts/getting-started-with-mvc-1-0-jsr-371/)
   * [Ozark becomes Eclipse Krazo](https://www.agilejava.eu/2018/08/31/ozark-becomes-eclipse-krazo/)
   * [A first look at MVC 1.0](https://maarten.mulders.it/blog/2018/09/first-look-at-mvc10.html)
+  * [JSR-371 ( MVC 1.0 ) — Extensão de Arquivo de Visualização padrão](https://medium.com/danieldiasjava/jsr-371-mvc-1-0-extensao-de-arquivo-de-visualizacao-padrao-277735e876eal) (In Portuguese/Brazil)
+  * [JSR-371 ( MVC 1.0 ) — Modelos baseados em CDI](https://medium.com/danieldiasjava/jsr-371-mvc-1-0-modelos-baseados-em-cdi-edcde6b501) (In Portuguese/Brazil)
+  * [JSR-371 ( MVC 1.0 ) — Classes Hibridas](https://medium.com/danieldiasjava/jsr-371-mvc-1-0-classes-hibridas-f33197af9fa1) (In Portuguese/Brazil)
 
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
 

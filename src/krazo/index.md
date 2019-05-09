@@ -16,7 +16,6 @@ Eclipse Krazo is the reference implementation (RI) for JSR 371.
 
   * [Java EE](docs/install-javaee.html) (Glassfish/Payara/Wildfly/TomEE)
   * [Servlet Containers](docs/install-servlet.html) (Tomcat/Jetty)
-  * [Wildfly with Jersey](docs/install-wildfly-jersey.html)
 
 ### Contribute
 

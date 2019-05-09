@@ -9,6 +9,7 @@ template: page.html
 
   * [Specification](https://oss.sonatype.org/service/local/artifact/maven/redirect?r=snapshots&g=javax.mvc&a=javax.mvc-api&v=LATEST&c=spec&p=pom&e=pdf)
   * [TCK coverage report](/spec/tck-coverage/index.html)
+  * [TCK](/spec/tck/index.html)
 
 ### Proposed Final Draft (PFD)
 

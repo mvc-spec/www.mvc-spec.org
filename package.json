@@ -14,7 +14,7 @@
     "font-awesome": "^4.7.0",
     "handlebars": "4.0.5",
     "metalsmith": "1.7.0",
-    "metalsmith-asciidoctor": "^1.1.0",
+    "metalsmith-asciidoctor": "^1.1.2",
     "metalsmith-better-excerpts": "^0.1.7",
     "metalsmith-ignore": "0.1.2",
     "metalsmith-less": "2.0.0",

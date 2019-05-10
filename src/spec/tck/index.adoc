@@ -1,0 +1,13 @@
+---
+title: MVC 1.0 TCK
+template: page.html
+---
+
+A TCK, or Technology Compatibility Kit, is one of the three required pieces for any JSR (the other two being the specification document and the reference implementation). 
+The TCK is a set of tools and tests to verify that an implementation of the technology conforms to the specification.
+
+The MVC 1.0 TCK is licensed under the Apache Software License 2.0 and hosted in a GitHub repository. 
+
+TODO: Instructions for running etc.
+
+To report a bug or challenge a test use our https://github.com/mvc-spec/mvc-tck/issues[issue tracker].

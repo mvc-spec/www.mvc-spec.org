@@ -62,6 +62,7 @@ which describe how to implement common requirements with MVC 1.0.
   * [JSR-371 ( MVC 1.0 ) — Modelos baseados em CDI](https://medium.com/danieldiasjava/jsr-371-mvc-1-0-modelos-baseados-em-cdi-edcde6b501) (In Portuguese/Brazil)
   * [JSR-371 ( MVC 1.0 ) — Classes Hibridas](https://medium.com/danieldiasjava/jsr-371-mvc-1-0-classes-hibridas-f33197af9fa1) (In Portuguese/Brazil)
   * [Eclipse Krazo-Rodando com TomEE usando o Módulo CXF](https://medium.com/danieldiasjava/eclipse-krazo-rodando-com-tomee-usando-o-modulo-cxf-6a65b39dde93) (In Portuguese/Brazil)
+  * [Eclipse Krazo - Template Engines Suportadas](https://medium.com/danieldiasjava/eclipse-krazo-template-engines-suportadas-ea1431ca8f4b) (In Portuguese/Brazil)
 
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
 

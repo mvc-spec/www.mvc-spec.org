@@ -62,6 +62,8 @@ which describe how to implement common requirements with MVC 1.0.
   * [JSR-371 ( MVC 1.0 ) — Classes Hibridas](https://medium.com/danieldiasjava/jsr-371-mvc-1-0-classes-hibridas-f33197af9fa1) (In Portuguese/Brazil)
   * [Eclipse Krazo-Rodando com TomEE usando o Módulo CXF](https://medium.com/danieldiasjava/eclipse-krazo-rodando-com-tomee-usando-o-modulo-cxf-6a65b39dde93) (In Portuguese/Brazil)
   * [Eclipse Krazo - Template Engines Suportadas](https://medium.com/danieldiasjava/eclipse-krazo-template-engines-suportadas-ea1431ca8f4b) (In Portuguese/Brazil)
+  * [Eclipse Krazo - Events](https://medium.com/danieldiasjava/eclipse-krazo-events-4c5c12150f68) (In Portuguese/Brazil)
+  * [Eclipse Krazo - Tipos de Retornos](https://medium.com/danieldiasjava/eclipse-krazo-tipos-de-retornos-e2fc6b932af7) (In Portuguese/Brazil)
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/learn/index.md)*
 
 ### Talks / Videos

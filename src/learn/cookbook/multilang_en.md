@@ -230,3 +230,7 @@ If you now execute the example with different `Locale`s, you get the following H
 </html>
 
 ```
+
+### Further sources
+- [MVC Specification](https://oss.sonatype.org/service/local/repositories/snapshots/content/javax/mvc/javax.mvc-api/1.0-SNAPSHOT/javax.mvc-api-1.0-20190530.105420-89-spec.pdf)
+- [Example project](https://github.com/erdlet/mvc-international-example)

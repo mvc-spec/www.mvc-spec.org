@@ -233,3 +233,7 @@ Führt man das Beispiel nun mit verschiedenen `Locale`s aus, bekommt man entspre
 </html>
 
 ```
+
+### Weitere Quellen
+- [MVC Spezifikation](https://oss.sonatype.org/service/local/repositories/snapshots/content/javax/mvc/javax.mvc-api/1.0-SNAPSHOT/javax.mvc-api-1.0-20190530.105420-89-spec.pdf)
+- [Beispielprojekt](https://github.com/erdlet/mvc-international-example)

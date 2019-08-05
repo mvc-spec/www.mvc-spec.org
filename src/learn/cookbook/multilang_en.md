@@ -21,7 +21,7 @@ If the header is missing, the system default `Locale` is used.
 ### Project layout
 A simple web application is used for the example. The project layout for this is as follows:
 
-![Projektstruktur](../../img/cookbook/multilang/project_structure.png)
+![Project layout](../../img/cookbook/multilang/project_structure.png)
 
 In addition, these are the required Maven dependencies:
 

@@ -44,14 +44,14 @@ Dazu kommen noch die benötigten Abhängigkeiten in Maven:
     <dependency>
       <groupId>javax.mvc</groupId>
       <artifactId>javax.mvc-api</artifactId>
-      <version>1.0-pfd</version>
+      <version>{{versions.spec.latest}}</version>
     </dependency>
 
     <!-- Change if your application server doesn't use Jersey -->
     <dependency>
       <groupId>org.eclipse.krazo</groupId>
       <artifactId>krazo-jersey</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>{{versions.krazo.latest}}</version>
     </dependency>
 
     <dependency>

@@ -4,7 +4,6 @@ template: page.html
 ---
 
 ## MVC 1.0 Cookbook
-
 The MVC 1.0 Cookbook is a collection of small articles which describe how 
 to implement common requirements with MVC 1.0.
 
@@ -14,8 +13,7 @@ to implement common requirements with MVC 1.0.
   
 ## I18N
 * Multi language support ([EN](multilang_en.html) | [DE](multilang_de.html))
-* Custom LocaleResolver
+* Custom LocaleResolver ([EN](custom_localeresolver_en.html) | [DE](custom_localeresolver_de.html))
 
-  
 Contributions are welcome! Just clone the 
 [website repository](https://github.com/mvc-spec/www.mvc-spec.org) and start writing.

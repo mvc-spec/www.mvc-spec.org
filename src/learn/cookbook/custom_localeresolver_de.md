@@ -131,7 +131,7 @@ public class QueryParamLocaleResolver implements LocaleResolver {
 Ruft man nun eine URL mit dem `lang` Query-Paramter und einer entsprechenden Locale auf, wird diese
 entsprechend in den `MvcContext` gesetzt.
 
-*curl -X GET <your-url>*
+*curl -X GET http://\<your-url\>*
 ```html
 <html>
 <head>
@@ -147,7 +147,7 @@ entsprechend in den `MvcContext` gesetzt.
 
 ```
 
-*curl -X GET <your-url>?lang=de-DE*
+*curl -X GET http://\<your-url\>?lang=de-DE*
 ```html
 <html>
 <head>
@@ -162,7 +162,7 @@ entsprechend in den `MvcContext` gesetzt.
 
 ```
 
-*curl -X GET <your-url>?lang=fr*
+*curl -X GET http://\<your-url\>?lang=fr*
 ```html
 <html>
 <head>

@@ -76,7 +76,7 @@ which describe how to implement common requirements with MVC 1.0.
     * [Sample app and slides](https://github.com/kito99/polymer-javaee-mvc-todo)
   * [JSR-371 Model-View-Controller](https://www.youtube.com/watch?v=hRQ5E80ehdw) (In Portuguese/Brazil)
   * [#TCMaoNaMassa - Eclipse Krazo (MVC) - Daniel Dias - Live Code](https://www.youtube.com/watch?v=e5gsX5lMlrY) (In Portuguese/Brazil)
-  * [Todo lo que querías saber sobre MVC en Jakarta EE y te avergonzaba preguntar - Daniel Dias - Barranquilla Java Users Group](https://www.youtube.com/watch?v=e5gsX5lMlrY) (In Spanish)
+  * [Todo lo que querías saber sobre MVC en Jakarta EE y te avergonzaba preguntar - Daniel Dias - Barranquilla Java Users Group](https://www.youtube.com/watch?v=dUrP9C0iXqE) (In Spanish)
     * [Sample app](https://github.com/soujava/mvc-cxf-tomee)
  * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/src/learn/index.md)*
 

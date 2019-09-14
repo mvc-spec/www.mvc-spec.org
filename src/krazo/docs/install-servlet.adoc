@@ -82,7 +82,8 @@ Make sure to add an empty `beans.xml` file in your `/src/main/webapp/WEB-INF` fo
 <beans xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/beans_2_0.xsd"
-       version="2.0" bean-discovery-mode="all">
+       version="2.0" bean-discovery-mode="all"
+       metadata-complete="true">
 
 </beans>
 ----

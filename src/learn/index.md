@@ -88,4 +88,5 @@ which describe how to implement common requirements with MVC 1.0.
   * [MVC 1.0 - by Example @ GIDS 2016 - Ivar Grimstad](https://speakerdeck.com/ivargrimstad/mvc-1-dot-0-by-example-at-gids-2016)
   * [MVC 1.0 - Now Even Better! - Ivar Grimstad](https://speakerdeck.com/ivargrimstad/mvc-1-dot-0-now-even-better-1)
   * [JSR-371 - Model-View-Controller - Daniel Dias](https://speakerdeck.com/danieldiasjava/jsr-371-model-view-controller) (In Portuguese/Brazil)
+  * [Vorschau auf Webanwendungen mit MVC 1.0 und Eclipse Krazo - Tobias Erdle](https://speakerdeck.com/erdlet/vorschau-auf-webanwendungen-mit-mvc-1-dot-0-und-eclipse-krazo)
   * *Add more by editing the file via [GitHub](https://github.com/mvc-spec/www.mvc-spec.org/blob/master/src/learn/index.md)*

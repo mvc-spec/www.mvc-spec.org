@@ -88,6 +88,9 @@ Make sure to add an empty `beans.xml` file in your `/src/main/webapp/WEB-INF` fo
 </beans>
 ----
 
+Note that the `metadata-complete` isn't strictly necessary.
+It works around an link:https://issues.jboss.org/browse/RESTEASY-2289[an issue in RESTEasy] that would otherwise cause RESTEasy (and thus Krazo) to start _twice_.
+
 Please also add a file called `context.xml` to `src/main/resources/META-INF`:
 
 [source,xml]

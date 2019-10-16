@@ -1,4 +1,5 @@
 # Redirect rules
 /send-me-home	/
 /spec/tck-coverage/*	https://mvc-tck-coverage.netlify.com/:splat	200
+/spec/latest/*	https://mvc-spec-html-latest.netlify.com/:splat	200
 /ozark/* /krazo/:splat

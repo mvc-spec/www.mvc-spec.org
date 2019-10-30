@@ -14,8 +14,6 @@ and the selected, server-specific Krazo implementation.
 The usage of the archetype is really easy. Depending on your application server, just run one of
 these commands in your command line.
 
-At the moment, the archetype version relates to the version of Krazo. This may change in the future.
-
 ==== Glassfish / Payara (Jersey)
 
 [source,bash]
@@ -23,7 +21,7 @@ At the moment, the archetype version relates to the version of Krazo. This may c
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet.archetypes \
     -DarchetypeArtifactId=jakartaee8-mvc-archetype \
-    -DarchetypeVersion=1.0.0-Beta1  \
+    -DarchetypeVersion=1.0.1-Beta1  \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId>
 ----
@@ -35,7 +33,7 @@ mvn archetype:generate \
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet.archetypes \
     -DarchetypeArtifactId=jakartaee8-mvc-archetype \
-    -DarchetypeVersion=1.0.0-Beta1 \
+    -DarchetypeVersion=1.0.1-Beta1 \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId> \
     -DkrazoImpl=resteasy
@@ -47,7 +45,7 @@ mvn archetype:generate \
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet.archetypes \
     -DarchetypeArtifactId=jakartaee8-mvc-archetype \
-    -DarchetypeVersion=1.0.0-Beta1 \
+    -DarchetypeVersion=1.0.1-Beta1 \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId> \
     -DkrazoImpl=cxf

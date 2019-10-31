@@ -44,7 +44,7 @@ By adding this repository to your POM, you will be able to use the snapshot vers
 | `{{versions.spec.develop}}`
 
 | Eclipse Krazo (RI)
-| N/A
+| `{{versions.krazo.latest}}`
 | `{{versions.krazo.develop}}`
 
 |===

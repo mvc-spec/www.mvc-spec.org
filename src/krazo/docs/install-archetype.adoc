@@ -1,0 +1,52 @@
+---
+title: Install Guide for Jakarta EE with Archetype
+template: page.html
+---
+
+== Install Guide for Jakarta EE by Maven Archetype
+
+To easiest way to generate a whole Jakarta EE based MVC project is to use 
+the link:https://github.com/erdlet/jakartaee8-mvc-archetype[archetype]. This archetype generates a simple project including the Jakarta EE Web Profile
+and the selected, server-specific Krazo implementation.
+
+=== How to use the archetype
+
+The usage of the archetype is really easy. Depending on your application server, just run one of
+these commands in your command line.
+
+==== Glassfish / Payara (Jersey)
+
+[source,bash]
+----
+mvn archetype:generate \
+    -DarchetypeGroupId=de.erdlet.archetypes \
+    -DarchetypeArtifactId=jakartaee8-mvc-archetype \
+    -DarchetypeVersion=1.0.1-Beta1  \
+    -DgroupId=<your-groupId> \
+    -DartifactId=<your-DartifactId>
+----
+
+==== Wildfly (RESTEasy)
+
+[source,bash]
+----
+mvn archetype:generate \
+    -DarchetypeGroupId=de.erdlet.archetypes \
+    -DarchetypeArtifactId=jakartaee8-mvc-archetype \
+    -DarchetypeVersion=1.0.1-Beta1 \
+    -DgroupId=<your-groupId> \
+    -DartifactId=<your-DartifactId> \
+    -DkrazoImpl=resteasy
+----
+
+==== TomEE / OpenLiberty (CXF)
+[source,bash]
+----
+mvn archetype:generate \
+    -DarchetypeGroupId=de.erdlet.archetypes \
+    -DarchetypeArtifactId=jakartaee8-mvc-archetype \
+    -DarchetypeVersion=1.0.1-Beta1 \
+    -DgroupId=<your-groupId> \
+    -DartifactId=<your-DartifactId> \
+    -DkrazoImpl=cxf
+----

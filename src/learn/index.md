@@ -95,6 +95,7 @@ which describe how to implement common requirements with MVC 1.0.
   * [#TCMaoNaMassa - Eclipse Krazo (MVC) - Daniel Dias - Live Code](https://www.youtube.com/watch?v=e5gsX5lMlrY) (In Portuguese/Brazil)
   * [Todo lo que querías saber sobre MVC en Jakarta EE y te avergonzaba preguntar - Daniel Dias - Barranquilla Java Users Group](https://www.youtube.com/watch?v=dUrP9C0iXqE) (In Spanish)
     * [Sample app](https://github.com/soujava/mvc-cxf-tomee)
+  * [Vorschau auf Webanwendungen mit MVC 1.0 und Eclipse Krazo - Tobias Erdle - Lightweight JUG Munich](https://youtu.be/H6a0Ba4pAzU) (In German)
 
 #### 2018
   * [JSR-371 Model-View-Controller](https://www.youtube.com/watch?v=hRQ5E80ehdw) (In Portuguese/Brazil)
@@ -114,7 +115,7 @@ which describe how to implement common requirements with MVC 1.0.
 ### Slides
 
 #### 2019
-  * [Vorschau auf Webanwendungen mit MVC 1.0 und Eclipse Krazo - Tobias Erdle](https://speakerdeck.com/erdlet/vorschau-auf-webanwendungen-mit-mvc-1-dot-0-und-eclipse-krazo)
+  * [Vorschau auf Webanwendungen mit MVC 1.0 und Eclipse Krazo - Tobias Erdle](https://speakerdeck.com/erdlet/vorschau-auf-webanwendungen-mit-mvc-1-dot-0-und-eclipse-krazo-lightweigth-java-user-group-munchen) (In German)
 
 #### 2018
   * [JSR-371 - Model-View-Controller - Daniel Dias](https://speakerdeck.com/danieldiasjava/jsr-371-model-view-controller) (In Portuguese/Brazil)

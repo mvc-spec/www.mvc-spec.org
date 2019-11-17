@@ -6,5 +6,9 @@
   "krazo": {
     "latest": "1.0.0-Beta1",
     "develop": "1.0.0-SNAPSHOT"
+  },
+  "tck": {
+    "latest": "1.0.0-SNAPSHOT",
+    "develop": "1.0.0-SNAPSHOT"
   }
 }

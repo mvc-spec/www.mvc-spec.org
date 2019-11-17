@@ -8,8 +8,6 @@ template: page.html
 ### Latest version
 
   * [Specification](/spec/latest/spec.pdf) ([HTML](/spec/latest/index.html), [PDF](/spec/latest/spec.pdf))
-  * [TCK coverage report](/spec/tck-coverage/index.html)
-  * [TCK](/spec/tck/index.html)
 
 ### Proposed Final Draft (PFD)
 

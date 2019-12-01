@@ -1,14 +1,14 @@
 {
   "spec": {
-    "latest": "1.0-pfd",
-    "develop": "1.0-SNAPSHOT"
+    "latest": "1.0.0-RC1",
+    "develop": "1.0.0-SNAPSHOT"
   },
   "krazo": {
     "latest": "1.0.0-Beta1",
     "develop": "1.0.0-SNAPSHOT"
   },
   "tck": {
-    "latest": "1.0.0-SNAPSHOT",
+    "latest": "1.0.0-RC1",
     "develop": "1.0.0-SNAPSHOT"
   }
 }

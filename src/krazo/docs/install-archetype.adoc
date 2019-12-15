@@ -21,7 +21,7 @@ these commands in your command line.
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet.archetypes \
     -DarchetypeArtifactId=jakartaee8-mvc-archetype \
-    -DarchetypeVersion=1.0.1-Beta1  \
+    -DarchetypeVersion=1.0.0-RC1  \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId>
 ----
@@ -33,7 +33,7 @@ mvn archetype:generate \
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet.archetypes \
     -DarchetypeArtifactId=jakartaee8-mvc-archetype \
-    -DarchetypeVersion=1.0.1-Beta1 \
+    -DarchetypeVersion=1.0.0-RC1 \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId> \
     -DkrazoImpl=resteasy
@@ -45,7 +45,7 @@ mvn archetype:generate \
 mvn archetype:generate \
     -DarchetypeGroupId=de.erdlet.archetypes \
     -DarchetypeArtifactId=jakartaee8-mvc-archetype \
-    -DarchetypeVersion=1.0.1-Beta1 \
+    -DarchetypeVersion=1.0.0-RC1 \
     -DgroupId=<your-groupId> \
     -DartifactId=<your-DartifactId> \
     -DkrazoImpl=cxf

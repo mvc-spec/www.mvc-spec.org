@@ -44,6 +44,9 @@ which describe how to implement common requirements with MVC 1.0.
 
 ### Blog posts
 
+#### 2020
+* [Building a web application with Jakarta MVC and Eclipse Krazo](https://medium.com/@hantsy/building-a-web-application-with-jakarta-mvc-and-eclipse-krazo-53924c2c793a)
+
 #### 2019
   * [JSR-371 ( MVC 1.0 ) — Modelos baseados em CDI](https://medium.com/danieldiasjava/jsr-371-mvc-1-0-modelos-baseados-em-cdi-edcde6b501) (In Portuguese/Brazil)
   * [JSR-371 ( MVC 1.0 ) — Classes Hibridas](https://medium.com/danieldiasjava/jsr-371-mvc-1-0-classes-hibridas-f33197af9fa1) (In Portuguese/Brazil)
@@ -77,7 +80,7 @@ which describe how to implement common requirements with MVC 1.0.
   * [Java EE 8 MVC: A detailed look at Controllers](http://www.mscharhag.com/java-ee-mvc/a-detailed-look-on-mvc-controllers)
   * [Java EE 8 MVC: Getting started with Ozark](http://www.mscharhag.com/java-ee-mvc/ozark-getting-started)
 
-  #### 2015
+#### 2015
   * [View technologies for MVC 1.0](https://blog.kaltepoth.de/posts/2015/04/21/view-technologies-for-mvc-1-0.html)
   * [Java EE 8 MVC with Ozark and Apache Tomcat](http://vytas.io/blog/java/Java-EE-8-MVC-with-Ozark-and-Apache-Tomcat/)
   * [Java EE 8 MVC (JSR-371) Example](http://www.adam-bien.com/roller/abien/entry/java_ee_8_mvc_jsr)

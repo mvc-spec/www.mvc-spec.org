@@ -94,6 +94,9 @@ which describe how to implement common requirements with MVC 1.0.
 
 ### Talks / Videos
 
+#### 2020
+  * [Todo lo que querías saber sobre MVC en Jakarta EE y te avergonzaba preguntar - Daniel Dias - Peru Java Users Group](https://www.youtube.com/watch?v=o-OoTLqVjNk) (In Spanish)
+    * [Sample app](https://github.com/soujava/mvc-cxf-tomee)
 #### 2019
   * [#TCMaoNaMassa - Eclipse Krazo (MVC) - Daniel Dias - Live Code](https://www.youtube.com/watch?v=e5gsX5lMlrY) (In Portuguese/Brazil)
   * [Todo lo que querías saber sobre MVC en Jakarta EE y te avergonzaba preguntar - Daniel Dias - Barranquilla Java Users Group](https://www.youtube.com/watch?v=dUrP9C0iXqE) (In Spanish)

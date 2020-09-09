@@ -12,7 +12,7 @@
     "bootstrap": "3.4.1",
     "browser-sync": "^2.26.7",
     "font-awesome": "^4.7.0",
-    "handlebars": "^4.4.5",
+    "handlebars": "^4.5.3",
     "metalsmith": "2.3.0",
     "metalsmith-asciidoctor": "^1.1.2",
     "metalsmith-better-excerpts": "^0.2.1",

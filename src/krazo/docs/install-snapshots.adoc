@@ -10,7 +10,7 @@ snapshots for your experiments. This will ensure, that you are using the latest 
 and the implementation.
 
 To get the latest snapshots for your project, you will have to add 
-the https://oss.sonatype.org/content/repositories/snapshots[Sonatype OSS snapshot repository] to your POM. 
+the https://jakarta.oss.sonatype.org/content/repositories/snapshots/[Jakarta EE snapshot repository] to your POM. 
 To do so, just add the following configuration to your `pom.xml`:
 
 [source,xml]
@@ -18,7 +18,7 @@ To do so, just add the following configuration to your `pom.xml`:
 <repositories>
     <repository>
         <id>sonatype-oss-snapshots</id>
-        <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        <url>https://jakarta.oss.sonatype.org/content/repositories/snapshots/</url>
         <releases>
             <enabled>false</enabled>
         </releases>

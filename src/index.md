@@ -18,14 +18,14 @@ In other words, in a component-based framework, the majority of the controller l
 by the framework instead of the application.
 
 The API defined by this specification falls into the action-based category and is, therefore, 
-not intended to be a replacement for component-based frameworks such as JavaServer Faces (JSF), 
-but simply a different approach to building Web applications on the Java EE platform.
+not intended to be a replacement for component-based frameworks such as Jakarta Faces, 
+but simply a different approach to building Web applications on the Jakarta EE platform.
 
-The MVC API is layered on top of [JAX-RS](https://github.com/jax-rs/spec) and integrates 
-with existing EE technologies like [CDI](https://www.jcp.org/en/jsr/detail?id=365) and 
-[Bean Validation](https://jcp.org/en/jsr/detail?id=349).
+The Jakarta MVC API is layered on top of [Jakarta RESTful Web Services](https://jakarta.ee/specifications/restful-ws/) and integrates 
+with existing Jakarta EE technologies like [Jakarta Contexts and Dependency Injection](https://jakarta.ee/specifications/cdi/) and 
+[Jakarta Bean Validation](https://jakarta.ee/specifications/bean-validation/).
 
-# HelloWorld Example
+# Hello World Example
 
 ```java
 @Path("hello")
@@ -49,9 +49,9 @@ The latest version is available via Maven:
 
 ```xml
 <dependency>
-    <groupId>javax.mvc</groupId>
-    <artifactId>javax.mvc-api</artifactId>
-    <version>{{versions.spec.latest}}</version>
+  <groupId>jakarta.mvc</groupId>
+  <artifactId>jakarta.mvc-api</artifactId>
+  <version>2.0.0</version>
 </dependency>
 ```
 

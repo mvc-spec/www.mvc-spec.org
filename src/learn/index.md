@@ -3,6 +3,10 @@ title: Learn
 template: page.html
 ---
 
+## Learn more about Jakarta MVC
+
+*coming soon*
+
 ## Learn more about MVC 1.0
 
 This page lists various resources for learning more about MVC 1.0. For a better overview, all resources
